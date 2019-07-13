@@ -1,0 +1,6 @@
+Warning (10268): Verilog HDL information at Nios_LCD_Camera_Component.sv(206): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at Nios_LCD_Camera_Component.sv(206): always construct contains both blocking and non-blocking assignments
+Warning (10037): Verilog HDL or VHDL warning at experiment3_cpu_0.v(1501): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at experiment3_cpu_0.v(1503): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at experiment3_cpu_0.v(1659): conditional expression evaluates to a constant
+Warning (10037): Verilog HDL or VHDL warning at experiment3_cpu_0.v(2578): conditional expression evaluates to a constant

@@ -1,0 +1,1070 @@
+# Reading /tools/altera/12.0/modelsim_ae/tcl/vsim/pref.tcl 
+# do msim_setup.tcl 
+# experiment1
+# ./../
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# List Of Command Line Aliases 
+# 
+# dev_com                       -- Compile device library files 
+# 
+# com                           -- Compile the design files in correct order 
+# 
+# elab                          -- Elaborate top level design 
+# 
+# elab_debug                    -- Elaborate the top level design with novopt option 
+# 
+# ld                            -- Compile all the design files and elaborate the top level design 
+# 
+# ld_debug                      -- Compile all the design files and elaborate the top level design with -novopt 
+# 
+# 
+# 
+# List Of Variables 
+# 
+# TOP_LEVEL_NAME                -- Top level module name. 
+# 
+# SYSTEM_INSTANCE_NAME          -- Instantiated system module name inside top level module. 
+# 
+# QSYS_SIMDIR                   -- Qsys base simulation directory. 
+#  ld 
+# [exec] dev_com 
+# [exec] com 
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_irq_mapper
+# 
+# Top level modules:
+# 	experiment1_irq_mapper
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_rsp_xbar_mux_001
+# 
+# Top level modules:
+# 	experiment1_rsp_xbar_mux_001
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_rsp_xbar_mux
+# 
+# Top level modules:
+# 	experiment1_rsp_xbar_mux
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_rsp_xbar_demux_002
+# 
+# Top level modules:
+# 	experiment1_rsp_xbar_demux_002
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_cmd_xbar_mux
+# 
+# Top level modules:
+# 	experiment1_cmd_xbar_mux
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_cmd_xbar_demux_001
+# 
+# Top level modules:
+# 	experiment1_cmd_xbar_demux_001
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_cmd_xbar_demux
+# 
+# Top level modules:
+# 	experiment1_cmd_xbar_demux
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_id_router_002_default_decode
+# -- Compiling module experiment1_id_router_002
+# 
+# Top level modules:
+# 	experiment1_id_router_002
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_id_router_default_decode
+# -- Compiling module experiment1_id_router
+# 
+# Top level modules:
+# 	experiment1_id_router
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_addr_router_001_default_decode
+# -- Compiling module experiment1_addr_router_001
+# 
+# Top level modules:
+# 	experiment1_addr_router_001
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_addr_router_default_decode
+# -- Compiling module experiment1_addr_router
+# 
+# Top level modules:
+# 	experiment1_addr_router
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module altera_merlin_slave_agent
+# 
+# Top level modules:
+# 	altera_merlin_slave_agent
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module altera_merlin_burst_uncompressor
+# 
+# Top level modules:
+# 	altera_merlin_burst_uncompressor
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module altera_merlin_master_agent
+# 
+# Top level modules:
+# 	altera_merlin_master_agent
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module altera_merlin_slave_translator
+# 
+# Top level modules:
+# 	altera_merlin_slave_translator
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module altera_merlin_master_translator
+# 
+# Top level modules:
+# 	altera_merlin_master_translator
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module custom_counter_component
+# 
+# Top level modules:
+# 	custom_counter_component
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module custom_counter_unit
+# 
+# Top level modules:
+# 	custom_counter_unit
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_LED_GREEN_O
+# 
+# Top level modules:
+# 	experiment1_LED_GREEN_O
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_LED_RED_O
+# 
+# Top level modules:
+# 	experiment1_LED_RED_O
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_PUSH_BUTTON_I
+# 
+# Top level modules:
+# 	experiment1_PUSH_BUTTON_I
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_SWITCH_I
+# 
+# Top level modules:
+# 	experiment1_SWITCH_I
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_jtag_uart_0_log_module
+# -- Compiling module experiment1_jtag_uart_0_sim_scfifo_w
+# -- Compiling module experiment1_jtag_uart_0_scfifo_w
+# -- Compiling module experiment1_jtag_uart_0_drom_module
+# -- Compiling module experiment1_jtag_uart_0_sim_scfifo_r
+# -- Compiling module experiment1_jtag_uart_0_scfifo_r
+# -- Compiling module experiment1_jtag_uart_0
+# 
+# Top level modules:
+# 	experiment1_jtag_uart_0
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_cpu_0_jtag_debug_module_sysclk
+# 
+# Top level modules:
+# 	experiment1_cpu_0_jtag_debug_module_sysclk
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_cpu_0_jtag_debug_module_wrapper
+# 
+# Top level modules:
+# 	experiment1_cpu_0_jtag_debug_module_wrapper
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_cpu_0_oci_test_bench
+# 
+# Top level modules:
+# 	experiment1_cpu_0_oci_test_bench
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_cpu_0_register_bank_a_module
+# -- Compiling module experiment1_cpu_0_register_bank_b_module
+# -- Compiling module experiment1_cpu_0_nios2_oci_debug
+# -- Compiling module experiment1_cpu_0_ociram_lpm_dram_bdp_component_module
+# -- Compiling module experiment1_cpu_0_nios2_ocimem
+# -- Compiling module experiment1_cpu_0_nios2_avalon_reg
+# -- Compiling module experiment1_cpu_0_nios2_oci_break
+# -- Compiling module experiment1_cpu_0_nios2_oci_xbrk
+# -- Compiling module experiment1_cpu_0_nios2_oci_dbrk
+# -- Compiling module experiment1_cpu_0_nios2_oci_itrace
+# -- Compiling module experiment1_cpu_0_nios2_oci_td_mode
+# -- Compiling module experiment1_cpu_0_nios2_oci_dtrace
+# -- Compiling module experiment1_cpu_0_nios2_oci_compute_tm_count
+# -- Compiling module experiment1_cpu_0_nios2_oci_fifowp_inc
+# -- Compiling module experiment1_cpu_0_nios2_oci_fifocount_inc
+# -- Compiling module experiment1_cpu_0_nios2_oci_fifo
+# -- Compiling module experiment1_cpu_0_nios2_oci_pib
+# -- Compiling module experiment1_cpu_0_traceram_lpm_dram_bdp_component_module
+# -- Compiling module experiment1_cpu_0_nios2_oci_im
+# -- Compiling module experiment1_cpu_0_nios2_performance_monitors
+# -- Compiling module experiment1_cpu_0_nios2_oci
+# -- Compiling module experiment1_cpu_0
+# 
+# Top level modules:
+# 	experiment1_cpu_0_nios2_performance_monitors
+# 	experiment1_cpu_0
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_cpu_0_test_bench
+# 
+# Top level modules:
+# 	experiment1_cpu_0_test_bench
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_cpu_0_jtag_debug_module_tck
+# 
+# Top level modules:
+# 	experiment1_cpu_0_jtag_debug_module_tck
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_onchip_memory2_0
+# 
+# Top level modules:
+# 	experiment1_onchip_memory2_0
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1
+# 
+# Top level modules:
+# 	experiment1
+# [exec] elab 
+# vsim -L work -L experiment1_irq_mapper -L experiment1_rsp_xbar_mux_001 -L experiment1_rsp_xbar_mux -L experiment1_rsp_xbar_demux_002 -L experiment1_cmd_xbar_mux -L experiment1_cmd_xbar_demux_001 -L experiment1_cmd_xbar_demux -L experiment1_rst_controller -L experiment1_id_router_002 -L experiment1_id_router -L experiment1_addr_router_001 -L experiment1_addr_router -L experiment1_cpu_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo -L experiment1_cpu_0_jtag_debug_module_translator_avalon_universal_slave_0_agent -L experiment1_cpu_0_instruction_master_translator_avalon_universal_master_0_agent -L experiment1_cpu_0_jtag_debug_module_translator -L experiment1_cpu_0_instruction_master_translator -L experiment1_custom_counter_component_0 -L experiment1_LED_GREEN_O -L experiment1_LED_RED_O -L experiment1_PUSH_BUTTON_I -L experiment1_SWITCH_I -L experiment1_jtag_uart_0 -L experiment1_cpu_0 -L experiment1_onchip_memory2_0 -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -t ps -G/experiment1/onchip_memory2_0/INIT_FILE=\"/home/ECE/fahimr/Desktop/experiment1/software/experiment1/mem_init/experiment1_onchip_memory2_0.hex\" experiment1 
+# //  ModelSim ALTERA 10.0d Jan 18 2012 Linux 2.6.18-348.el5
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading work.experiment1
+# Loading experiment1_onchip_memory2_0.experiment1_onchip_memory2_0
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading experiment1_cpu_0.experiment1_cpu_0
+# Loading experiment1_cpu_0.experiment1_cpu_0_test_bench
+# Loading experiment1_cpu_0.experiment1_cpu_0_register_bank_a_module
+# Loading experiment1_cpu_0.experiment1_cpu_0_register_bank_b_module
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_oci
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_oci_debug
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_ocimem
+# Loading experiment1_cpu_0.experiment1_cpu_0_ociram_lpm_dram_bdp_component_module
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_avalon_reg
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_oci_break
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_oci_xbrk
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_oci_dbrk
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_oci_itrace
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_oci_dtrace
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_oci_td_mode
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_oci_fifo
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_oci_compute_tm_count
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_oci_fifowp_inc
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_oci_fifocount_inc
+# Loading experiment1_cpu_0.experiment1_cpu_0_oci_test_bench
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_oci_pib
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_oci_im
+# Loading experiment1_cpu_0.experiment1_cpu_0_traceram_lpm_dram_bdp_component_module
+# Loading experiment1_cpu_0.experiment1_cpu_0_jtag_debug_module_wrapper
+# Loading experiment1_cpu_0.experiment1_cpu_0_jtag_debug_module_tck
+# Loading altera_mf_ver.altera_std_synchronizer
+# Loading experiment1_cpu_0.experiment1_cpu_0_jtag_debug_module_sysclk
+# Loading experiment1_jtag_uart_0.experiment1_jtag_uart_0
+# Loading experiment1_jtag_uart_0.experiment1_jtag_uart_0_scfifo_w
+# Loading experiment1_jtag_uart_0.experiment1_jtag_uart_0_sim_scfifo_w
+# Loading experiment1_jtag_uart_0.experiment1_jtag_uart_0_log_module
+# Loading experiment1_jtag_uart_0.experiment1_jtag_uart_0_scfifo_r
+# Loading experiment1_jtag_uart_0.experiment1_jtag_uart_0_sim_scfifo_r
+# Loading experiment1_jtag_uart_0.experiment1_jtag_uart_0_drom_module
+# Loading experiment1_SWITCH_I.experiment1_SWITCH_I
+# Loading experiment1_PUSH_BUTTON_I.experiment1_PUSH_BUTTON_I
+# Loading experiment1_LED_RED_O.experiment1_LED_RED_O
+# Loading experiment1_LED_GREEN_O.experiment1_LED_GREEN_O
+# Loading sv_std.std
+# Loading experiment1_custom_counter_component_0.custom_counter_component
+# Loading experiment1_custom_counter_component_0.custom_counter_unit
+# Loading experiment1_cpu_0_instruction_master_translator.altera_merlin_master_translator
+# Loading experiment1_cpu_0_jtag_debug_module_translator.altera_merlin_slave_translator
+# Loading experiment1_cpu_0_instruction_master_translator_avalon_universal_master_0_agent.altera_merlin_master_agent
+# Loading experiment1_cpu_0_jtag_debug_module_translator_avalon_universal_slave_0_agent.altera_merlin_slave_agent
+# Loading experiment1_cpu_0_jtag_debug_module_translator_avalon_universal_slave_0_agent.altera_merlin_burst_uncompressor
+# Loading experiment1_cpu_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo.altera_avalon_sc_fifo
+# Loading experiment1_addr_router.experiment1_addr_router
+# Loading experiment1_addr_router.experiment1_addr_router_default_decode
+# Loading experiment1_addr_router_001.experiment1_addr_router_001
+# Loading experiment1_addr_router_001.experiment1_addr_router_001_default_decode
+# Loading experiment1_id_router.experiment1_id_router
+# Loading experiment1_id_router.experiment1_id_router_default_decode
+# Loading experiment1_id_router_002.experiment1_id_router_002
+# Loading experiment1_id_router_002.experiment1_id_router_002_default_decode
+# Loading experiment1_rst_controller.altera_reset_controller
+# Loading experiment1_cmd_xbar_demux.experiment1_cmd_xbar_demux
+# Loading experiment1_cmd_xbar_demux_001.experiment1_cmd_xbar_demux_001
+# Loading experiment1_cmd_xbar_mux.experiment1_cmd_xbar_mux
+# Loading experiment1_cmd_xbar_mux.altera_merlin_arbitrator
+# Loading experiment1_cmd_xbar_mux.altera_merlin_arb_adder
+# Loading experiment1_rsp_xbar_demux_002.experiment1_rsp_xbar_demux_002
+# Loading experiment1_rsp_xbar_mux.experiment1_rsp_xbar_mux
+# Loading experiment1_rsp_xbar_mux.altera_merlin_arbitrator
+# Loading experiment1_rsp_xbar_mux.altera_merlin_arb_adder
+# Loading experiment1_rsp_xbar_mux_001.experiment1_rsp_xbar_mux_001
+# Loading experiment1_rsp_xbar_mux_001.altera_merlin_arbitrator
+# Loading experiment1_rsp_xbar_mux_001.altera_merlin_arb_adder
+# Loading experiment1_irq_mapper.experiment1_irq_mapper
+# Loading experiment1_rst_controller.altera_reset_synchronizer
+# ** Warning: (vsim-3017) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Too few port connections. Expected 23, found 7.
+#         Region: /experiment1/onchip_memory2_0/the_altsyncram
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Too few port connections. Expected 23, found 6.
+#         Region: /experiment1/cpu_0/experiment1_cpu_0_register_bank_a/the_altsyncram
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Too few port connections. Expected 23, found 6.
+#         Region: /experiment1/cpu_0/experiment1_cpu_0_register_bank_b/the_altsyncram
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(329): [TFMPC] - Too few port connections. Expected 23, found 13.
+#         Region: /experiment1/cpu_0/the_experiment1_cpu_0_nios2_oci/the_experiment1_cpu_0_nios2_ocimem/experiment1_cpu_0_ociram_lpm_dram_bdp_component/the_altsyncram
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(329): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(329): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(329): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(329): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(329): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(329): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(329): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(329): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(329): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(329): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3015) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(2976): [PCDPC] - Port size (16 or 16) does not match connection size (38) for port 'jdo'. The port definition is at: /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(1299).
+#         Region: /experiment1/cpu_0/the_experiment1_cpu_0_nios2_oci/the_experiment1_cpu_0_nios2_oci_itrace
+# ** Warning: (vsim-3015) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(2638): [PCDPC] - Port size (7 or 7) does not match connection size (17) for port 'address_b'. The port definition is at: /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(2429).
+#         Region: /experiment1/cpu_0/the_experiment1_cpu_0_nios2_oci/the_experiment1_cpu_0_nios2_oci_im/experiment1_cpu_0_traceram_lpm_dram_bdp_component
+# ** Warning: (vsim-3017) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(2477): [TFMPC] - Too few port connections. Expected 23, found 12.
+#         Region: /experiment1/cpu_0/the_experiment1_cpu_0_nios2_oci/the_experiment1_cpu_0_nios2_oci_im/experiment1_cpu_0_traceram_lpm_dram_bdp_component/the_altsyncram
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(2477): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(2477): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(2477): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(2477): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(2477): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(2477): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(2477): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(2477): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(2477): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(2477): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(2477): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/experiment1.v(598): [TFMPC] - Too few port connections. Expected 12, found 10.
+#         Region: /experiment1/jtag_uart_0
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/experiment1.v(598): [TFMPC] - Missing connection for port 'dataavailable'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/experiment1.v(598): [TFMPC] - Missing connection for port 'readyfordata'.
+#   
+#  
+"vlog -sv ../../../../../../../test_bench.v"
+# invalid command name "vlog -sv ../../../../../../../test_bench.v"
+"vlog -sv ../../../../../../../test_bench.vvlog -sv ../../../../../../../test_bench.v"
+# invalid command name "vlog -sv ../../../../../../../test_bench.vvlog -sv ../../../../../../../test_bench.v"
+vlog -sv ../../../../../../../test_bench.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module test_bench
+# 
+# Top level modules:
+# 	test_bench
+set TOP_LEVEL_NAME test_bench
+# test_bench
+set SYSTEM_INSTANCE_NAME /DUT
+# /DUT
+wave.do
+# invalid command name "wave.do"
+do ../../../../../../../wave.do
+# ** Error: (vish-4014) No objects found matching '/test_bench/CLOCK_50_I'.
+# Error in macro ./../../../../../../../wave.do line 1
+# (vish-4014) No objects found matching '/test_bench/CLOCK_50_I'.
+#     while executing
+# "add wave -noupdate /test_bench/CLOCK_50_I"
+do ../../../../../../../wave.do
+# ** Error: (vish-4014) No objects found matching '/test_bench/CLOCK_50_I'.
+# Error in macro ./../../../../../../../wave.do line 1
+# (vish-4014) No objects found matching '/test_bench/CLOCK_50_I'.
+#     while executing
+# "add wave -noupdate /test_bench/CLOCK_50_I"
+do ../../../../../../../wave.do
+# ** Error: (vish-4014) No objects found matching '/test_bench/CLOCK_50_I'.
+# Error in macro ./../../../../../../../wave.do line 1
+# (vish-4014) No objects found matching '/test_bench/CLOCK_50_I'.
+#     while executing
+# "add wave -noupdate /test_bench/CLOCK_50_I"
+do wave.do
+# Cannot open macro file: wave.do
+do wave.do
+# Cannot open macro file: wave.do
+do ../../../../../../../wave.do
+# ** Error: (vish-4014) No objects found matching '/test_bench/CLOCK_50_I'.
+# Error in macro ./../../../../../../../wave.do line 1
+# (vish-4014) No objects found matching '/test_bench/CLOCK_50_I'.
+#     while executing
+# "add wave -noupdate /test_bench/CLOCK_50_I"
+do ../../../../../../../wave.do
+# ** Error: (vish-4014) No objects found matching '/test_bench/CLOCK_50_I'.
+# Error in macro ./../../../../../../../wave.do line 1
+# (vish-4014) No objects found matching '/test_bench/CLOCK_50_I'.
+#     while executing
+# "add wave -noupdate /test_bench/CLOCK_50_I"
+run -alldo ../../../../../../../wave.do
+# Unknown option: alldo
+# ** Error: (vsim-4005) Invalid argument '-alldo'.
+# Usage: run [<timesteps> [<time_units>]] | -all | -continue | -next | -step | -over | -out | -init | -final
+run -all
+run -all
+vlog -sv ../../../../../../../test_bench.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module test_bench
+# 
+# Top level modules:
+# 	test_bench
+set TOP_LEVEL_NAME test_bench
+# test_bench
+set SYSTEM_INSTANCE_NAME /DUT
+# /DUT
+ld
+# [exec] dev_com 
+# [exec] com 
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_irq_mapper
+# 
+# Top level modules:
+# 	experiment1_irq_mapper
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_rsp_xbar_mux_001
+# 
+# Top level modules:
+# 	experiment1_rsp_xbar_mux_001
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_rsp_xbar_mux
+# 
+# Top level modules:
+# 	experiment1_rsp_xbar_mux
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_rsp_xbar_demux_002
+# 
+# Top level modules:
+# 	experiment1_rsp_xbar_demux_002
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_cmd_xbar_mux
+# 
+# Top level modules:
+# 	experiment1_cmd_xbar_mux
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_cmd_xbar_demux_001
+# 
+# Top level modules:
+# 	experiment1_cmd_xbar_demux_001
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_cmd_xbar_demux
+# 
+# Top level modules:
+# 	experiment1_cmd_xbar_demux
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_id_router_002_default_decode
+# -- Compiling module experiment1_id_router_002
+# 
+# Top level modules:
+# 	experiment1_id_router_002
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_id_router_default_decode
+# -- Compiling module experiment1_id_router
+# 
+# Top level modules:
+# 	experiment1_id_router
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_addr_router_001_default_decode
+# -- Compiling module experiment1_addr_router_001
+# 
+# Top level modules:
+# 	experiment1_addr_router_001
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_addr_router_default_decode
+# -- Compiling module experiment1_addr_router
+# 
+# Top level modules:
+# 	experiment1_addr_router
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module altera_merlin_slave_agent
+# 
+# Top level modules:
+# 	altera_merlin_slave_agent
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module altera_merlin_burst_uncompressor
+# 
+# Top level modules:
+# 	altera_merlin_burst_uncompressor
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module altera_merlin_master_agent
+# 
+# Top level modules:
+# 	altera_merlin_master_agent
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module altera_merlin_slave_translator
+# 
+# Top level modules:
+# 	altera_merlin_slave_translator
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module altera_merlin_master_translator
+# 
+# Top level modules:
+# 	altera_merlin_master_translator
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module custom_counter_component
+# 
+# Top level modules:
+# 	custom_counter_component
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module custom_counter_unit
+# 
+# Top level modules:
+# 	custom_counter_unit
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_LED_GREEN_O
+# 
+# Top level modules:
+# 	experiment1_LED_GREEN_O
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_LED_RED_O
+# 
+# Top level modules:
+# 	experiment1_LED_RED_O
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_PUSH_BUTTON_I
+# 
+# Top level modules:
+# 	experiment1_PUSH_BUTTON_I
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_SWITCH_I
+# 
+# Top level modules:
+# 	experiment1_SWITCH_I
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_jtag_uart_0_log_module
+# -- Compiling module experiment1_jtag_uart_0_sim_scfifo_w
+# -- Compiling module experiment1_jtag_uart_0_scfifo_w
+# -- Compiling module experiment1_jtag_uart_0_drom_module
+# -- Compiling module experiment1_jtag_uart_0_sim_scfifo_r
+# -- Compiling module experiment1_jtag_uart_0_scfifo_r
+# -- Compiling module experiment1_jtag_uart_0
+# 
+# Top level modules:
+# 	experiment1_jtag_uart_0
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_cpu_0_jtag_debug_module_sysclk
+# 
+# Top level modules:
+# 	experiment1_cpu_0_jtag_debug_module_sysclk
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_cpu_0_jtag_debug_module_wrapper
+# 
+# Top level modules:
+# 	experiment1_cpu_0_jtag_debug_module_wrapper
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_cpu_0_oci_test_bench
+# 
+# Top level modules:
+# 	experiment1_cpu_0_oci_test_bench
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_cpu_0_register_bank_a_module
+# -- Compiling module experiment1_cpu_0_register_bank_b_module
+# -- Compiling module experiment1_cpu_0_nios2_oci_debug
+# -- Compiling module experiment1_cpu_0_ociram_lpm_dram_bdp_component_module
+# -- Compiling module experiment1_cpu_0_nios2_ocimem
+# -- Compiling module experiment1_cpu_0_nios2_avalon_reg
+# -- Compiling module experiment1_cpu_0_nios2_oci_break
+# -- Compiling module experiment1_cpu_0_nios2_oci_xbrk
+# -- Compiling module experiment1_cpu_0_nios2_oci_dbrk
+# -- Compiling module experiment1_cpu_0_nios2_oci_itrace
+# -- Compiling module experiment1_cpu_0_nios2_oci_td_mode
+# -- Compiling module experiment1_cpu_0_nios2_oci_dtrace
+# -- Compiling module experiment1_cpu_0_nios2_oci_compute_tm_count
+# -- Compiling module experiment1_cpu_0_nios2_oci_fifowp_inc
+# -- Compiling module experiment1_cpu_0_nios2_oci_fifocount_inc
+# -- Compiling module experiment1_cpu_0_nios2_oci_fifo
+# -- Compiling module experiment1_cpu_0_nios2_oci_pib
+# -- Compiling module experiment1_cpu_0_traceram_lpm_dram_bdp_component_module
+# -- Compiling module experiment1_cpu_0_nios2_oci_im
+# -- Compiling module experiment1_cpu_0_nios2_performance_monitors
+# -- Compiling module experiment1_cpu_0_nios2_oci
+# -- Compiling module experiment1_cpu_0
+# 
+# Top level modules:
+# 	experiment1_cpu_0_nios2_performance_monitors
+# 	experiment1_cpu_0
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_cpu_0_test_bench
+# 
+# Top level modules:
+# 	experiment1_cpu_0_test_bench
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_cpu_0_jtag_debug_module_tck
+# 
+# Top level modules:
+# 	experiment1_cpu_0_jtag_debug_module_tck
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1_onchip_memory2_0
+# 
+# Top level modules:
+# 	experiment1_onchip_memory2_0
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module experiment1
+# 
+# Top level modules:
+# 	experiment1
+# [exec] elab 
+# vsim -L work -L experiment1_irq_mapper -L experiment1_rsp_xbar_mux_001 -L experiment1_rsp_xbar_mux -L experiment1_rsp_xbar_demux_002 -L experiment1_cmd_xbar_mux -L experiment1_cmd_xbar_demux_001 -L experiment1_cmd_xbar_demux -L experiment1_rst_controller -L experiment1_id_router_002 -L experiment1_id_router -L experiment1_addr_router_001 -L experiment1_addr_router -L experiment1_cpu_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo -L experiment1_cpu_0_jtag_debug_module_translator_avalon_universal_slave_0_agent -L experiment1_cpu_0_instruction_master_translator_avalon_universal_master_0_agent -L experiment1_cpu_0_jtag_debug_module_translator -L experiment1_cpu_0_instruction_master_translator -L experiment1_custom_counter_component_0 -L experiment1_LED_GREEN_O -L experiment1_LED_RED_O -L experiment1_PUSH_BUTTON_I -L experiment1_SWITCH_I -L experiment1_jtag_uart_0 -L experiment1_cpu_0 -L experiment1_onchip_memory2_0 -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -t ps -G/test_bench/DUT/onchip_memory2_0/INIT_FILE=\"/home/ECE/fahimr/Desktop/experiment1/software/experiment1/mem_init/experiment1_onchip_memory2_0.hex\" test_bench 
+# Loading sv_std.std
+# Loading work.test_bench
+# Loading work.experiment1
+# Loading experiment1_onchip_memory2_0.experiment1_onchip_memory2_0
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading experiment1_cpu_0.experiment1_cpu_0
+# Loading experiment1_cpu_0.experiment1_cpu_0_test_bench
+# Loading experiment1_cpu_0.experiment1_cpu_0_register_bank_a_module
+# Loading experiment1_cpu_0.experiment1_cpu_0_register_bank_b_module
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_oci
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_oci_debug
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_ocimem
+# Loading experiment1_cpu_0.experiment1_cpu_0_ociram_lpm_dram_bdp_component_module
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_avalon_reg
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_oci_break
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_oci_xbrk
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_oci_dbrk
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_oci_itrace
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_oci_dtrace
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_oci_td_mode
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_oci_fifo
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_oci_compute_tm_count
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_oci_fifowp_inc
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_oci_fifocount_inc
+# Loading experiment1_cpu_0.experiment1_cpu_0_oci_test_bench
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_oci_pib
+# Loading experiment1_cpu_0.experiment1_cpu_0_nios2_oci_im
+# Loading experiment1_cpu_0.experiment1_cpu_0_traceram_lpm_dram_bdp_component_module
+# Loading experiment1_cpu_0.experiment1_cpu_0_jtag_debug_module_wrapper
+# Loading experiment1_cpu_0.experiment1_cpu_0_jtag_debug_module_tck
+# Loading altera_mf_ver.altera_std_synchronizer
+# Loading experiment1_cpu_0.experiment1_cpu_0_jtag_debug_module_sysclk
+# Loading experiment1_jtag_uart_0.experiment1_jtag_uart_0
+# Loading experiment1_jtag_uart_0.experiment1_jtag_uart_0_scfifo_w
+# Loading experiment1_jtag_uart_0.experiment1_jtag_uart_0_sim_scfifo_w
+# Loading experiment1_jtag_uart_0.experiment1_jtag_uart_0_log_module
+# Loading experiment1_jtag_uart_0.experiment1_jtag_uart_0_scfifo_r
+# Loading experiment1_jtag_uart_0.experiment1_jtag_uart_0_sim_scfifo_r
+# Loading experiment1_jtag_uart_0.experiment1_jtag_uart_0_drom_module
+# Loading experiment1_SWITCH_I.experiment1_SWITCH_I
+# Loading experiment1_PUSH_BUTTON_I.experiment1_PUSH_BUTTON_I
+# Loading experiment1_LED_RED_O.experiment1_LED_RED_O
+# Loading experiment1_LED_GREEN_O.experiment1_LED_GREEN_O
+# Loading experiment1_custom_counter_component_0.custom_counter_component
+# Loading experiment1_custom_counter_component_0.custom_counter_unit
+# Loading experiment1_cpu_0_instruction_master_translator.altera_merlin_master_translator
+# Loading experiment1_cpu_0_jtag_debug_module_translator.altera_merlin_slave_translator
+# Loading experiment1_cpu_0_instruction_master_translator_avalon_universal_master_0_agent.altera_merlin_master_agent
+# Loading experiment1_cpu_0_jtag_debug_module_translator_avalon_universal_slave_0_agent.altera_merlin_slave_agent
+# Loading experiment1_cpu_0_jtag_debug_module_translator_avalon_universal_slave_0_agent.altera_merlin_burst_uncompressor
+# Loading experiment1_cpu_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo.altera_avalon_sc_fifo
+# Loading experiment1_addr_router.experiment1_addr_router
+# Loading experiment1_addr_router.experiment1_addr_router_default_decode
+# Loading experiment1_addr_router_001.experiment1_addr_router_001
+# Loading experiment1_addr_router_001.experiment1_addr_router_001_default_decode
+# Loading experiment1_id_router.experiment1_id_router
+# Loading experiment1_id_router.experiment1_id_router_default_decode
+# Loading experiment1_id_router_002.experiment1_id_router_002
+# Loading experiment1_id_router_002.experiment1_id_router_002_default_decode
+# Loading experiment1_rst_controller.altera_reset_controller
+# Loading experiment1_cmd_xbar_demux.experiment1_cmd_xbar_demux
+# Loading experiment1_cmd_xbar_demux_001.experiment1_cmd_xbar_demux_001
+# Loading experiment1_cmd_xbar_mux.experiment1_cmd_xbar_mux
+# Loading experiment1_cmd_xbar_mux.altera_merlin_arbitrator
+# Loading experiment1_cmd_xbar_mux.altera_merlin_arb_adder
+# Loading experiment1_rsp_xbar_demux_002.experiment1_rsp_xbar_demux_002
+# Loading experiment1_rsp_xbar_mux.experiment1_rsp_xbar_mux
+# Loading experiment1_rsp_xbar_mux.altera_merlin_arbitrator
+# Loading experiment1_rsp_xbar_mux.altera_merlin_arb_adder
+# Loading experiment1_rsp_xbar_mux_001.experiment1_rsp_xbar_mux_001
+# Loading experiment1_rsp_xbar_mux_001.altera_merlin_arbitrator
+# Loading experiment1_rsp_xbar_mux_001.altera_merlin_arb_adder
+# Loading experiment1_irq_mapper.experiment1_irq_mapper
+# Loading experiment1_rst_controller.altera_reset_synchronizer
+# ** Warning: (vsim-3017) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Too few port connections. Expected 23, found 7.
+#         Region: /test_bench/DUT/onchip_memory2_0/the_altsyncram
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_onchip_memory2_0.v(67): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Too few port connections. Expected 23, found 6.
+#         Region: /test_bench/DUT/cpu_0/experiment1_cpu_0_register_bank_a/the_altsyncram
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(55): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Too few port connections. Expected 23, found 6.
+#         Region: /test_bench/DUT/cpu_0/experiment1_cpu_0_register_bank_b/the_altsyncram
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(118): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(329): [TFMPC] - Too few port connections. Expected 23, found 13.
+#         Region: /test_bench/DUT/cpu_0/the_experiment1_cpu_0_nios2_oci/the_experiment1_cpu_0_nios2_ocimem/experiment1_cpu_0_ociram_lpm_dram_bdp_component/the_altsyncram
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(329): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(329): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(329): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(329): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(329): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(329): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(329): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(329): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(329): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(329): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3015) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(2976): [PCDPC] - Port size (16 or 16) does not match connection size (38) for port 'jdo'. The port definition is at: /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(1299).
+#         Region: /test_bench/DUT/cpu_0/the_experiment1_cpu_0_nios2_oci/the_experiment1_cpu_0_nios2_oci_itrace
+# ** Warning: (vsim-3015) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(2638): [PCDPC] - Port size (7 or 7) does not match connection size (17) for port 'address_b'. The port definition is at: /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(2429).
+#         Region: /test_bench/DUT/cpu_0/the_experiment1_cpu_0_nios2_oci/the_experiment1_cpu_0_nios2_oci_im/experiment1_cpu_0_traceram_lpm_dram_bdp_component
+# ** Warning: (vsim-3017) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(2477): [TFMPC] - Too few port connections. Expected 23, found 12.
+#         Region: /test_bench/DUT/cpu_0/the_experiment1_cpu_0_nios2_oci/the_experiment1_cpu_0_nios2_oci_im/experiment1_cpu_0_traceram_lpm_dram_bdp_component/the_altsyncram
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(2477): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(2477): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(2477): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(2477): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(2477): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(2477): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(2477): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(2477): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(2477): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(2477): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v(2477): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/experiment1.v(598): [TFMPC] - Too few port connections. Expected 12, found 10.
+#         Region: /test_bench/DUT/jtag_uart_0
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/experiment1.v(598): [TFMPC] - Missing connection for port 'dataavailable'.
+# ** Warning: (vsim-3722) /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/experiment1.v(598): [TFMPC] - Missing connection for port 'readyfordata'.
+wave.do
+# invalid command name "wave.do"
+do wave.do
+# Cannot open macro file: wave.do
+do ../../../../../../../wave.do
+run -all
+# 
+# 00000053    4.525 ms S
+# 00000074    4.530 ms t
+# 00000061    4.535 ms a
+# 00000072    4.540 ms r
+# 00000074    4.545 ms t
+# 00000020    4.550 ms  
+# 0000006d    4.555 ms m
+# 00000061    4.560 ms a
+# 00000069    4.565 ms i
+# 0000006e    4.571 ms n
+# 0000002e    4.576 ms .
+# 0000002e    4.581 ms .
+# 0000002e    4.586 ms .
+# 0000000a    4.667 ms 
+# 
+# 00000050    4.801 ms P
+# 00000042    4.806 ms B
+# 00000020    4.811 ms  
+# 00000069    4.816 ms i
+# 0000006e    4.821 ms n
+# 00000069    4.827 ms i
+# 00000074    4.832 ms t
+# 00000069    4.837 ms i
+# 00000061    4.842 ms a
+# 0000006c    4.847 ms l
+# 00000069    4.852 ms i
+# 0000007a    4.857 ms z
+# 00000065    4.862 ms e
+# 00000064    4.867 ms d
+# 0000002e    4.872 ms .
+# 0000002e    4.878 ms .
+# 0000002e    4.883 ms .
+# 0000000a    4.964 ms 
+# 
+# 00000043    5.091 ms C
+# 0000006f    5.096 ms o
+# 00000075    5.101 ms u
+# 0000006e    5.106 ms n
+# 00000074    5.111 ms t
+# 00000065    5.116 ms e
+# 00000072    5.121 ms r
+# 00000020    5.126 ms  
+# 00000049    5.132 ms I
+# 00000052    5.137 ms R
+# 00000051    5.142 ms Q
+# 00000020    5.147 ms  
+# 00000069    5.152 ms i
+# 0000006e    5.157 ms n
+# 00000069    5.162 ms i
+# 00000074    5.167 ms t
+# 00000069    5.172 ms i
+# 00000061    5.177 ms a
+# 0000006c    5.183 ms l
+# 00000069    5.188 ms i
+# 0000007a    5.193 ms z
+# 00000065    5.198 ms e
+# 00000064    5.203 ms d
+# 0000002e    5.208 ms .
+# 0000002e    5.213 ms .
+# 0000002e    5.218 ms .
+# 0000000a    5.299 ms 
+# 
+# 00000053    5.411 ms S
+# 00000079    5.416 ms y
+# 00000073    5.421 ms s
+# 00000074    5.426 ms t
+# 00000065    5.431 ms e
+# 0000006d    5.436 ms m
+# 00000020    5.441 ms  
+# 00000069    5.447 ms i
+# 00000073    5.452 ms s
+# 00000020    5.457 ms  
+# 00000075    5.462 ms u
+# 00000070    5.467 ms p
+# 00000021    5.472 ms !
+# 0000000a    5.553 ms 
+# TBINFO: System startup done...
+# 
+# TBINFO: Loading config
+# 
+# TBINFO: Config being loaded
+# 
+# TBINFO: Reset counter
+# 
+# 
+# 0000004c    5.818 ms L
+# 0000006f    5.823 ms o
+# 00000061    5.828 ms a
+# 00000064    5.833 ms d
+# 00000069    5.838 ms i
+# 0000006e    5.843 ms n
+# 00000067    5.848 ms g
+# 00000020    5.853 ms  
+# 00000063    5.858 ms c
+# 0000006f    5.864 ms o
+# 00000075    5.869 ms u
+# 0000006e    5.874 ms n
+# 00000074    5.879 ms t
+# 00000065    5.884 ms e
+# 00000072    5.889 ms r
+# 00000020    5.894 ms  
+# 00000076    5.899 ms v
+# 00000061    5.904 ms a
+# 0000006c    5.909 ms l
+# 00000075    5.915 ms u
+# 00000065    5.920 ms e
+# 00000020    5.925 ms  
+# 00000033    5.930 ms 3
+# 0000000a    5.935 ms 
+# TBINFO: Counter counting
+# 
+# 
+# 00000052    6.116 ms R
+# 00000065    6.121 ms e
+# 00000073    6.126 ms s
+# 00000065    6.131 ms e
+# 00000074    6.136 ms t
+# 00000074    6.141 ms t
+# 00000069    6.146 ms i
+# 0000006e    6.152 ms n
+# 00000067    6.157 ms g
+# 00000020    6.162 ms  
+# 00000063    6.167 ms c
+# 0000006f    6.172 ms o
+# 00000075    6.177 ms u
+# 0000006e    6.182 ms n
+# 00000074    6.187 ms t
+# 00000065    6.192 ms e
+# 00000072    6.197 ms r
+# 00000020    6.203 ms  
+# 00000076    6.208 ms v
+# 00000061    6.213 ms a
+# 0000006c    6.218 ms l
+# 00000075    6.223 ms u
+# 00000065    6.228 ms e
+# 0000000a    6.233 ms 
+# TBINFO: Counter expired
+# 
+# 
+# 00000042    6.392 ms B
+# 00000072    6.397 ms r
+# 00000061    6.402 ms a
+# 0000007a    6.407 ms z
+# 00000069    6.412 ms i
+# 0000006c    6.417 ms l
+# 00000020    6.422 ms  
+# 0000004e    6.427 ms N
+# 00000046    6.433 ms F
+# 00000054    6.438 ms T
+# 00000020    6.443 ms  
+# 0000000a    6.448 ms 
+# TBINFO: Simulation done
+# 
+# Break in Module test_bench at ../../../../../../../test_bench.v line 54

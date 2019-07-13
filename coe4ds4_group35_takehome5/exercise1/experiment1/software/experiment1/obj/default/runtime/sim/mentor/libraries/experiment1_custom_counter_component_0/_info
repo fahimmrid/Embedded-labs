@@ -1,0 +1,47 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/ECE/fahimr/Desktop/experiment1/software/experiment1/obj/default/runtime/sim/mentor
+vcustom_counter_component
+Z1 DXx6 sv_std 3 std 0 22 :CP]PHbGOHGT_H:3KF`8L2
+IG;b]EX;zUO5o36C38Jl5]3
+VhmeADdI?6M@?cVNi?hnK;3
+S1
+Z2 d/home/ECE/fahimr/Desktop/experiment1/software/experiment1/obj/default/runtime/sim/mentor
+Z3 w1551403854
+8/home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/custom_counter_component.sv
+F/home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/custom_counter_component.sv
+L0 11
+Z4 OV;L;10.0d;49
+r1
+31
+Z5 o-sv -work experiment1_custom_counter_component_0 -O0
+!s100 30;C6SS@6BVmVPHW`5BJP2
+!s105 custom_counter_component_sv_unit
+!s85 0
+!s108 1551876699.904374
+!s107 /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/custom_counter_component.sv|
+!s90 -reportprogress|300|-sv|/home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/custom_counter_component.sv|-work|experiment1_custom_counter_component_0|
+!s101 -O0
+vcustom_counter_unit
+R1
+!s100 YU6hlmM_kQ@czeQE;2=b?2
+ICWPin9k5DNjnl?[9K`NhT2
+VNV@GJPm9Xh7A]QHcoR_;l3
+!s105 custom_counter_unit_sv_unit
+S1
+R2
+R3
+8/home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/custom_counter_unit.sv
+F/home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/custom_counter_unit.sv
+L0 11
+R4
+r1
+!s85 0
+31
+!s108 1551876699.950354
+!s107 /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/custom_counter_unit.sv|
+!s90 -reportprogress|300|-sv|/home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/custom_counter_unit.sv|-work|experiment1_custom_counter_component_0|
+!s101 -O0
+R5

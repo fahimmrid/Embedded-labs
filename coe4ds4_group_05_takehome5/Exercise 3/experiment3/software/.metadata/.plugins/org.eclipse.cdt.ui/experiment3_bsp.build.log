@@ -1,5 +1,0 @@
-
-**** Clean-only build of configuration Nios II for project experiment3_bsp ****
-
-make clean 
-[BSP clean complete]

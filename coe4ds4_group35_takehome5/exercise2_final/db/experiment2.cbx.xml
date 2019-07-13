@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="experiment2">
+		<CBX_INST_ENTRY INSTANCE_NAME="|experiment2|experiment2_cpu_0:cpu_0|experiment2_cpu_0_nios2_oci:the_experiment2_cpu_0_nios2_oci|experiment2_cpu_0_nios2_oci_im:the_experiment2_cpu_0_nios2_oci_im|experiment2_cpu_0_traceram_lpm_dram_bdp_component_module:experiment2_cpu_0_traceram_lpm_dram_bdp_component|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_e502.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|experiment2|experiment2_cpu_0:cpu_0|experiment2_cpu_0_nios2_oci:the_experiment2_cpu_0_nios2_oci|experiment2_cpu_0_nios2_ocimem:the_experiment2_cpu_0_nios2_ocimem|experiment2_cpu_0_ociram_lpm_dram_bdp_component_module:experiment2_cpu_0_ociram_lpm_dram_bdp_component|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_ub82.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|experiment2|experiment2_cpu_0:cpu_0|experiment2_cpu_0_register_bank_a_module:experiment2_cpu_0_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_hhg1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|experiment2|experiment2_cpu_0:cpu_0|experiment2_cpu_0_register_bank_b_module:experiment2_cpu_0_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_ihg1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|experiment2|experiment2_jtag_uart_0:jtag_uart_0|experiment2_jtag_uart_0_scfifo_w:the_experiment2_jtag_uart_0_scfifo_w|scfifo:wfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|experiment2|custom_counter_component:custom_counter_component_0|dual_port_ram_unit:dual_port_ram_unit_inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_vq92.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|experiment2|experiment2_jtag_uart_0:jtag_uart_0|experiment2_jtag_uart_0_scfifo_r:the_experiment2_jtag_uart_0_scfifo_r|scfifo:rfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

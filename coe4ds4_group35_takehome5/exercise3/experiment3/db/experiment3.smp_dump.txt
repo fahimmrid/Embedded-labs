@@ -1,0 +1,91 @@
+
+State Machine - |experiment3|Altera_UP_SD_Card_Avalon_Interface:sd_card_0|current_cmd_state
+Name current_cmd_state.s_UPDATE_AUX_SR current_cmd_state.s_WAIT_RESPONSE current_cmd_state.s_WAIT_COMMAND current_cmd_state.s_RESET_CMD 
+current_cmd_state.s_RESET_CMD 0 0 0 0 
+current_cmd_state.s_WAIT_COMMAND 0 0 1 1 
+current_cmd_state.s_WAIT_RESPONSE 0 1 0 1 
+current_cmd_state.s_UPDATE_AUX_SR 1 0 0 1 
+
+State Machine - |experiment3|Altera_UP_SD_Card_Avalon_Interface:sd_card_0|current_state
+Name current_state.s_WAIT_RELEASE current_state.s_WRITE_SECOND_WORD current_state.s_WRITE_SECOND_BYTE current_state.s_WR_READ_SECOND_WORD_DELAY current_state.s_WR_READ_SECOND_WORD current_state.s_WRITE_FIRST_WORD current_state.s_WRITE_FIRST_BYTE current_state.s_WR_READ_FIRST_WORD_DELAY current_state.s_WR_READ_FIRST_WORD current_state.s_RECEIVE_SECOND_WORD current_state.s_RECEIVE_FIRST_WORD current_state.s_READ_SECOND_WORD current_state.s_READ_FIRST_WORD current_state.s_WAIT_REQUEST current_state.s_RESET 
+current_state.s_RESET 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+current_state.s_WAIT_REQUEST 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+current_state.s_READ_FIRST_WORD 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+current_state.s_READ_SECOND_WORD 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+current_state.s_RECEIVE_FIRST_WORD 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+current_state.s_RECEIVE_SECOND_WORD 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+current_state.s_WR_READ_FIRST_WORD 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+current_state.s_WR_READ_FIRST_WORD_DELAY 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+current_state.s_WRITE_FIRST_BYTE 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+current_state.s_WRITE_FIRST_WORD 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+current_state.s_WR_READ_SECOND_WORD 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+current_state.s_WR_READ_SECOND_WORD_DELAY 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+current_state.s_WRITE_SECOND_BYTE 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.s_WRITE_SECOND_WORD 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.s_WAIT_RELEASE 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |experiment3|Altera_UP_SD_Card_Avalon_Interface:sd_card_0|Altera_UP_SD_Card_Interface:SD_Card_Port|Altera_UP_SD_Card_Buffer:data_line|current_state
+Name current_state.s_WAIT_DEASSERT current_state.s_RECEIVING_STOP_BIT current_state.s_RECEIVING_DATA current_state.s_RECEIVING_LEADING_BITS current_state.s_WAIT_DATA_START current_state.s_WAIT_BUSY_END current_state.s_WAIT_BUSY current_state.s_SEND_STOP current_state.s_SEND_CRC current_state.s_SEND_DATA current_state.s_SEND_START_BIT current_state.s_WAIT_REQUEST current_state.s_RESET 
+current_state.s_RESET 0 0 0 0 0 0 0 0 0 0 0 0 0 
+current_state.s_WAIT_REQUEST 0 0 0 0 0 0 0 0 0 0 0 1 1 
+current_state.s_SEND_START_BIT 0 0 0 0 0 0 0 0 0 0 1 0 1 
+current_state.s_SEND_DATA 0 0 0 0 0 0 0 0 0 1 0 0 1 
+current_state.s_SEND_CRC 0 0 0 0 0 0 0 0 1 0 0 0 1 
+current_state.s_SEND_STOP 0 0 0 0 0 0 0 1 0 0 0 0 1 
+current_state.s_WAIT_BUSY 0 0 0 0 0 0 1 0 0 0 0 0 1 
+current_state.s_WAIT_BUSY_END 0 0 0 0 0 1 0 0 0 0 0 0 1 
+current_state.s_WAIT_DATA_START 0 0 0 0 1 0 0 0 0 0 0 0 1 
+current_state.s_RECEIVING_LEADING_BITS 0 0 0 1 0 0 0 0 0 0 0 0 1 
+current_state.s_RECEIVING_DATA 0 0 1 0 0 0 0 0 0 0 0 0 1 
+current_state.s_RECEIVING_STOP_BIT 0 1 0 0 0 0 0 0 0 0 0 0 1 
+current_state.s_WAIT_DEASSERT 1 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |experiment3|Altera_UP_SD_Card_Avalon_Interface:sd_card_0|Altera_UP_SD_Card_Interface:SD_Card_Port|Altera_UP_SD_Card_Control_FSM:control_FSM|current_state
+Name current_state.s_PERIODIC_STATUS_CHECK current_state.s_WAIT_DEASSERT current_state.s_WAIT_FOR_CLOCK_EDGE_BEFORE_DISABLE current_state.s_WAIT_RESPONSE current_state.s_SEND_COMMAND current_state.s_GENERATE_COMMAND current_state.s_REACTIVATE_CLOCK current_state.s_AWAIT_USER_COMMAND current_state.s_TOGGLE_CLOCK_FREQUENCY current_state.s_GO_TO_NEXT_COMMAND current_state.s_WAIT_PREDEFINED_COMMAND_RESPONSE current_state.s_WAIT_PREDEFINED_COMMAND_TRANSMITTED current_state.s_GENERATE_PREDEFINED_COMMAND current_state.s_WAIT_74_CYCLES current_state.s_RESET 
+current_state.s_RESET 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+current_state.s_WAIT_74_CYCLES 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+current_state.s_GENERATE_PREDEFINED_COMMAND 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+current_state.s_WAIT_PREDEFINED_COMMAND_TRANSMITTED 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+current_state.s_WAIT_PREDEFINED_COMMAND_RESPONSE 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+current_state.s_GO_TO_NEXT_COMMAND 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+current_state.s_TOGGLE_CLOCK_FREQUENCY 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+current_state.s_AWAIT_USER_COMMAND 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+current_state.s_REACTIVATE_CLOCK 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+current_state.s_GENERATE_COMMAND 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+current_state.s_SEND_COMMAND 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+current_state.s_WAIT_RESPONSE 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+current_state.s_WAIT_FOR_CLOCK_EDGE_BEFORE_DISABLE 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.s_WAIT_DEASSERT 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.s_PERIODIC_STATUS_CHECK 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |experiment3|Altera_UP_SD_Card_Avalon_Interface:sd_card_0|Altera_UP_SD_Card_Interface:SD_Card_Port|Altera_UP_SD_Card_Response_Receiver:response_receiver|current_state
+Name current_state.s_WAIT_BEGIN_DEASSERT current_state.s_WAIT_BUSY_END current_state.s_WAIT_BUSY current_state.s_WAIT_PROCESSING_DELAY current_state.s_WAIT_END current_state.s_WAIT_BEGIN 
+current_state.s_WAIT_BEGIN 0 0 0 0 0 0 
+current_state.s_WAIT_END 0 0 0 0 1 1 
+current_state.s_WAIT_PROCESSING_DELAY 0 0 0 1 0 1 
+current_state.s_WAIT_BUSY 0 0 1 0 0 1 
+current_state.s_WAIT_BUSY_END 0 1 0 0 0 1 
+current_state.s_WAIT_BEGIN_DEASSERT 1 0 0 0 0 1 
+
+State Machine - |experiment3|Nios_LCD_Camera_Component:nios_lcd_camera_component_0|Touch_Panel_Controller:Touch_Panel_unit|TP_state
+Name TP_state.S_TP_DEBOUNCE TP_state.S_TP_BACKOFF TP_state.S_TP_ZF_Y TP_state.S_TP_RECV_Y TP_state.S_TP_SEND_Y TP_state.S_TP_ZF_X TP_state.S_TP_RECV_X TP_state.S_TP_SEND_X TP_state.S_TP_SYNC_1K TP_state.S_TP_ENABLE TP_state.S_TP_IDLE 
+TP_state.S_TP_IDLE 0 0 0 0 0 0 0 0 0 0 0 
+TP_state.S_TP_ENABLE 0 0 0 0 0 0 0 0 0 1 1 
+TP_state.S_TP_SYNC_1K 0 0 0 0 0 0 0 0 1 0 1 
+TP_state.S_TP_SEND_X 0 0 0 0 0 0 0 1 0 0 1 
+TP_state.S_TP_RECV_X 0 0 0 0 0 0 1 0 0 0 1 
+TP_state.S_TP_ZF_X 0 0 0 0 0 1 0 0 0 0 1 
+TP_state.S_TP_SEND_Y 0 0 0 0 1 0 0 0 0 0 1 
+TP_state.S_TP_RECV_Y 0 0 0 1 0 0 0 0 0 0 1 
+TP_state.S_TP_ZF_Y 0 0 1 0 0 0 0 0 0 0 1 
+TP_state.S_TP_BACKOFF 0 1 0 0 0 0 0 0 0 0 1 
+TP_state.S_TP_DEBOUNCE 1 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |experiment3|experiment3_cpu_0:cpu_0|experiment3_cpu_0_nios2_oci:the_experiment3_cpu_0_nios2_oci|experiment3_cpu_0_jtag_debug_module_wrapper:the_experiment3_cpu_0_jtag_debug_module_wrapper|experiment3_cpu_0_jtag_debug_module_tck:the_experiment3_cpu_0_jtag_debug_module_tck|DRsize
+Name DRsize.101 DRsize.100 DRsize.011 DRsize.010 DRsize.001 DRsize.000 
+DRsize.000 0 0 0 0 0 0 
+DRsize.001 0 0 0 0 1 1 
+DRsize.010 0 0 0 1 0 1 
+DRsize.011 0 0 1 0 0 1 
+DRsize.100 0 1 0 0 0 1 
+DRsize.101 1 0 0 0 0 1 

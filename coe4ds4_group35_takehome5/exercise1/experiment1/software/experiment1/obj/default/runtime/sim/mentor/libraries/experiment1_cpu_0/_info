@@ -1,0 +1,491 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/ECE/fahimr/Desktop/experiment1/software/experiment1/obj/default/runtime/sim/mentor
+vexperiment1_cpu_0
+IVASmM4K[9TMiC<[E6^^;21
+VL@:`d8Lo^e<2o@I=o6j4<1
+Z1 d/home/ECE/fahimr/Desktop/experiment1/software/experiment1/obj/default/runtime/sim/mentor
+Z2 w1551403831
+Z3 8/home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v
+Z4 F/home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v
+L0 3106
+Z5 OV;L;10.0d;49
+r1
+31
+Z6 !s108 1551876700.302848
+Z7 !s107 /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v|
+Z8 !s90 -reportprogress|300|/home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0.v|-work|experiment1_cpu_0|
+Z9 o-work experiment1_cpu_0 -O0
+!s100 8_SMXZmJFO?AC4@8:G?[`3
+!s85 0
+!s101 -O0
+vexperiment1_cpu_0_jtag_debug_module_sysclk
+IKJNdXXie:6NdgYMR]Tc2z0
+V4Z:a5ojQE=OmbB;WNJQTW3
+R1
+R2
+8/home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0_jtag_debug_module_sysclk.v
+F/home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0_jtag_debug_module_sysclk.v
+L0 21
+R5
+r1
+31
+R9
+!s100 Xj9WPMH0XGeI<]P8M]2KD3
+!s85 0
+!s108 1551876700.203963
+!s107 /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0_jtag_debug_module_sysclk.v|
+!s90 -reportprogress|300|/home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0_jtag_debug_module_sysclk.v|-work|experiment1_cpu_0|
+!s101 -O0
+vexperiment1_cpu_0_jtag_debug_module_tck
+!s100 ENl4glz__bZ89CTCO;Z[]0
+ITo16gbBiPTn0oToPT`Coc1
+VLNfigh;2dX16FXE^2a]701
+R1
+R2
+8/home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0_jtag_debug_module_tck.v
+F/home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0_jtag_debug_module_tck.v
+L0 21
+R5
+r1
+!s85 0
+31
+!s108 1551876700.505357
+!s107 /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0_jtag_debug_module_tck.v|
+!s90 -reportprogress|300|/home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0_jtag_debug_module_tck.v|-work|experiment1_cpu_0|
+!s101 -O0
+R9
+vexperiment1_cpu_0_jtag_debug_module_wrapper
+IaWoR:7^LWZZ9Uo<O9V;N^0
+V2=aJeEZn3KmMCK:hTbhbG1
+R1
+R2
+8/home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0_jtag_debug_module_wrapper.v
+F/home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0_jtag_debug_module_wrapper.v
+L0 21
+R5
+r1
+31
+R9
+!s100 6b;l9NB8Ua9C6BV]Y3<FL2
+!s85 0
+!s108 1551876700.241350
+!s107 /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0_jtag_debug_module_wrapper.v|
+!s90 -reportprogress|300|/home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0_jtag_debug_module_wrapper.v|-work|experiment1_cpu_0|
+!s101 -O0
+vexperiment1_cpu_0_nios2_avalon_reg
+IeLIUCQSA9:2jG7gzB@]nm1
+VQZ@Xe9bDz2HKnadT3YE6_0
+R1
+R2
+R3
+R4
+L0 514
+R5
+r1
+31
+R6
+R7
+R8
+R9
+!s100 7L=12jdY:AL?9GU_7;H?U3
+!s85 0
+!s101 -O0
+vexperiment1_cpu_0_nios2_oci
+I][^g[RCbgFXVO78W:22D>1
+VRT2QO=>Ra@RlQ]g@Jd8M[1
+R1
+R2
+R3
+R4
+L0 2668
+R5
+r1
+31
+R6
+R7
+R8
+R9
+!s100 5glV0T;EWM32NeCNeACYd3
+!s85 0
+!s101 -O0
+vexperiment1_cpu_0_nios2_oci_break
+IA?3jCcne33OT16TI3@8Bn3
+VEdkeiAe2H4_aj9AjX`O`X3
+R1
+R2
+R3
+R4
+L0 608
+R5
+r1
+31
+R6
+R7
+R8
+R9
+!s100 adHedVU0Ce@jd4FCfh9Pa0
+!s85 0
+!s101 -O0
+vexperiment1_cpu_0_nios2_oci_compute_tm_count
+I]ZC74RI14i=DVYIUgN1WS2
+VG1QnjEf2;H7PV45UabLbW0
+R1
+R2
+R3
+R4
+L0 1694
+R5
+r1
+31
+R6
+R7
+R8
+R9
+!s100 N1B9:VT^::G]SEV5;=_4h1
+!s85 0
+!s101 -O0
+vexperiment1_cpu_0_nios2_oci_dbrk
+IkVCDJSU?_kz^b2C0e^gGV2
+V<HEMne2YimPUVQ_Bz8c]X0
+R1
+R2
+R3
+R4
+L0 1108
+R5
+r1
+31
+R6
+R7
+R8
+R9
+!s100 <_<mobFKf69j<:M[1JlBh0
+!s85 0
+!s101 -O0
+vexperiment1_cpu_0_nios2_oci_debug
+IeM;3NLldH>^W6_nlmQaAZ3
+VnVzaQU_CZ7=i<e[9V6YIJ0
+R1
+R2
+R3
+R4
+L0 147
+R5
+r1
+31
+R6
+R7
+R8
+R9
+!s100 k>CYg`BW:3oASIYN2S`3@3
+!s85 0
+!s101 -O0
+vexperiment1_cpu_0_nios2_oci_dtrace
+IHIWH9?;Vd5:3;@zhn`mj>0
+V9j4oYlUjU:C=>cD2V1@Hk3
+R1
+R2
+R3
+R4
+L0 1600
+R5
+r1
+31
+R6
+R7
+R8
+R9
+!s100 e;60zn`ZER1lBQ_gRe:>91
+!s85 0
+!s101 -O0
+vexperiment1_cpu_0_nios2_oci_fifo
+I>^TSESzK@;=>UC@58e=U_2
+VgJh>6IJ2A[ET56?Ba<Keg0
+R1
+R2
+R3
+R4
+L0 1853
+R5
+r1
+31
+R6
+R7
+R8
+R9
+!s100 AVI3:I1G0I8Q8aSLogM@21
+!s85 0
+!s101 -O0
+vexperiment1_cpu_0_nios2_oci_fifocount_inc
+ISgYZYeoYeM[PM[T=0J81b2
+V2F>;^9075P@9G18=X>O581
+R1
+R2
+R3
+R4
+L0 1807
+R5
+r1
+31
+R6
+R7
+R8
+R9
+!s100 Y7TP?Bi:N1=WH`3;:eG[A0
+!s85 0
+!s101 -O0
+vexperiment1_cpu_0_nios2_oci_fifowp_inc
+Io:Vn0AgNGH5_7>HL5daVo1
+V5bJAl6h3eo`XYgc7U`o]:2
+R1
+R2
+R3
+R4
+L0 1765
+R5
+r1
+31
+R6
+R7
+R8
+R9
+!s100 7eAAFQ0_ZW10SaJ`T1CfO3
+!s85 0
+!s101 -O0
+vexperiment1_cpu_0_nios2_oci_im
+IQ?;FkI_CC^`5@EzYZPE6m0
+V?4g[C_i[TAg[08WXZQ@G>1
+R1
+R2
+R3
+R4
+L0 2515
+R5
+r1
+31
+R6
+R7
+R8
+R9
+!s100 o[6o>6H8dOXULVP9oPS0O1
+!s85 0
+!s101 -O0
+vexperiment1_cpu_0_nios2_oci_itrace
+Ib8fOC:G`m7QCWQT[T[0^?0
+VM>1Dh[iXm_P@aibgReQhb2
+R1
+R2
+R3
+R4
+L0 1294
+R5
+r1
+31
+R6
+R7
+R8
+R9
+!s100 3fXWTWzPaLBDV?XWV7CeK1
+!s85 0
+!s101 -O0
+vexperiment1_cpu_0_nios2_oci_pib
+IQcNRNY>9C]G[RJ^mc]U8g2
+V56@ONklSc?;DB3JnGNg7Q1
+R1
+R2
+R3
+R4
+L0 2358
+R5
+r1
+31
+R6
+R7
+R8
+R9
+!s100 kiVcz_b?KfgM[:MkCDY][0
+!s85 0
+!s101 -O0
+vexperiment1_cpu_0_nios2_oci_td_mode
+IGjX:6=VUR6KPcSMa0EOh=2
+VZ8M6D@S4MKmna:N44:6`52
+R1
+R2
+R3
+R4
+L0 1533
+R5
+r1
+31
+R6
+R7
+R8
+R9
+!s100 Hb<0Mn:6^MH2^V[`^cXz_0
+!s85 0
+!s101 -O0
+vexperiment1_cpu_0_nios2_oci_xbrk
+I]UmE0VnkR0QTXJ5bQzakY0
+VL2aChiFH]7A_Dh??B03=83
+R1
+R2
+R3
+R4
+L0 902
+R5
+r1
+31
+R6
+R7
+R8
+R9
+!s100 6PNzbS^ULS<@8cd^B54[R2
+!s85 0
+!s101 -O0
+vexperiment1_cpu_0_nios2_ocimem
+IOGHfVK4LIFA0Uk]Tz@:1a2
+V5`]52<z1LKoS]YIoNgP<h2
+R1
+R2
+R3
+R4
+L0 368
+R5
+r1
+31
+R6
+R7
+R8
+R9
+!s100 SKkQTazWR@l60Y;5?zNel0
+!s85 0
+!s101 -O0
+vexperiment1_cpu_0_nios2_performance_monitors
+I;kS:e[Vkc7jV0^iHk<U7k0
+V]cEU`i`FDDQE=^M?>amm]2
+R1
+R2
+R3
+R4
+L0 2652
+R5
+r1
+31
+R6
+R7
+R8
+R9
+!s100 beW4L3<[F<Aj7o@@i8kLh3
+!s85 0
+!s101 -O0
+vexperiment1_cpu_0_oci_test_bench
+ILm7OSd7d<Y_l_^_cL4Miz3
+VaSQkH97=m7@kmNPcmC@360
+R1
+R2
+8/home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0_oci_test_bench.v
+F/home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0_oci_test_bench.v
+L0 21
+R5
+r1
+31
+R9
+!s100 06R_8cR:>JC0;Vi8H]TRf1
+!s85 0
+!s108 1551876700.271740
+!s107 /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0_oci_test_bench.v|
+!s90 -reportprogress|300|/home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0_oci_test_bench.v|-work|experiment1_cpu_0|
+!s101 -O0
+vexperiment1_cpu_0_ociram_lpm_dram_bdp_component_module
+IV[Q6oM2cgjdCG8Nf3dPHN0
+VCNU>ShcHl7TOWM7`<D4341
+R1
+R2
+R3
+R4
+L0 275
+R5
+r1
+31
+R6
+R7
+R8
+R9
+!s100 6ZK@ZG[CI9DVzhFlM`nPd0
+!s85 0
+!s101 -O0
+vexperiment1_cpu_0_register_bank_a_module
+I]Ekl]8^GIbW_:XL[BScVB1
+V:]6?n0:Naz^n[V;z=CS;10
+R1
+R2
+R3
+R4
+L0 21
+R5
+r1
+31
+R6
+R7
+R8
+R9
+!s100 Eh`UNlAiTOa[]@5IJ7X^@3
+!s85 0
+!s101 -O0
+vexperiment1_cpu_0_register_bank_b_module
+ISJE=?D4bBmjNF]:F2Rbf13
+V@Uic?Won<a7_n;1`40MQh0
+R1
+R2
+R3
+R4
+L0 84
+R5
+r1
+31
+R6
+R7
+R8
+R9
+!s100 kdnGhMBRilj0KCS4J^U_R2
+!s85 0
+!s101 -O0
+vexperiment1_cpu_0_test_bench
+I9:7Yim:jhkHz>5JBKa3FF3
+VEj<``jbmVfT^MOg4XX4a]0
+R1
+R2
+8/home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0_test_bench.v
+F/home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0_test_bench.v
+L0 21
+R5
+r1
+31
+R9
+!s100 4^JQj`^XO?8SHDJJX;F^I0
+!s85 0
+!s108 1551876700.439506
+!s107 /home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0_test_bench.v|
+!s90 -reportprogress|300|/home/ECE/fahimr/Desktop/experiment1/experiment1/simulation/submodules/experiment1_cpu_0_test_bench.v|-work|experiment1_cpu_0|
+!s101 -O0
+vexperiment1_cpu_0_traceram_lpm_dram_bdp_component_module
+Ia>oGEnH664QFDP5a:H>=^0
+VJ2TiZU7OcRa5G;`U8Dlkg0
+R1
+R2
+R3
+R4
+L0 2426
+R5
+r1
+31
+R6
+R7
+R8
+R9
+!s100 0mj8XX7Wn9n7DU1H26bEZ1
+!s85 0
+!s101 -O0
