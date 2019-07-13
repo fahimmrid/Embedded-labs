@@ -1,0 +1,41 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/ECE/arfeenh/Desktop/coe4ds4_lab5_2018/experiment1/software/experiment1/obj/default/runtime/sim/mentor
+valtera_reset_controller
+IRT[Jg[FXYB2dJnP^d:=DX1
+V:mR1fj3Rf>NGziDN_:U030
+Z1 d/home/ECE/arfeenh/Desktop/coe4ds4_lab5_2018/experiment1/software/experiment1/obj/default/runtime/sim/mentor
+Z2 w1518302101
+8/home/ECE/arfeenh/Desktop/coe4ds4_lab5_2018/experiment1/experiment1/simulation/submodules/altera_reset_controller.v
+F/home/ECE/arfeenh/Desktop/coe4ds4_lab5_2018/experiment1/experiment1/simulation/submodules/altera_reset_controller.v
+L0 28
+Z3 OV;L;10.0d;49
+r1
+31
+Z4 o-work experiment1_rst_controller -O0
+!s100 ad[a58FAY`hzK281<lz][2
+!s85 0
+!s108 1518308308.932666
+!s107 /home/ECE/arfeenh/Desktop/coe4ds4_lab5_2018/experiment1/experiment1/simulation/submodules/altera_reset_controller.v|
+!s90 -reportprogress|300|/home/ECE/arfeenh/Desktop/coe4ds4_lab5_2018/experiment1/experiment1/simulation/submodules/altera_reset_controller.v|-work|experiment1_rst_controller|
+!s101 -O0
+valtera_reset_synchronizer
+!s100 c]9ESFQ=6?>k^3^3DQS]F0
+IPWAHhLg9E8lIA:>HCm@`h2
+V3CjoOZCIEdzCJgPn8]D7`2
+R1
+R2
+8/home/ECE/arfeenh/Desktop/coe4ds4_lab5_2018/experiment1/experiment1/simulation/submodules/altera_reset_synchronizer.v
+F/home/ECE/arfeenh/Desktop/coe4ds4_lab5_2018/experiment1/experiment1/simulation/submodules/altera_reset_synchronizer.v
+L0 24
+R3
+r1
+!s85 0
+31
+!s108 1518308308.960517
+!s107 /home/ECE/arfeenh/Desktop/coe4ds4_lab5_2018/experiment1/experiment1/simulation/submodules/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|/home/ECE/arfeenh/Desktop/coe4ds4_lab5_2018/experiment1/experiment1/simulation/submodules/altera_reset_synchronizer.v|-work|experiment1_rst_controller|
+!s101 -O0
+R4

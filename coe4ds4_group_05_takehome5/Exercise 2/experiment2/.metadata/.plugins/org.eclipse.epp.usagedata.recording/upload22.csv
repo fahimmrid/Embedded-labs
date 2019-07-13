@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.mylyn.commons.net,3.4.1.v20100625-2100-e3x,"org.eclipse.mylyn.commons.net",1518550696283
+started,bundle,org.eclipse.mylyn.commons.ui,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.commons.ui",1518550696284
+started,bundle,org.eclipse.mylyn.context.core,3.4.1.v20100909-0100-e3x,"org.eclipse.mylyn.context.core",1518550696284
+started,bundle,org.eclipse.mylyn.context.ui,3.4.1.v20100909-0100-e3x,"org.eclipse.mylyn.context.ui",1518550696284
+started,bundle,org.eclipse.mylyn.monitor.ui,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.monitor.ui",1518550696284
+started,bundle,org.eclipse.mylyn.tasks.ui,3.4.2.v20100902-0100-e3x,"org.eclipse.mylyn.tasks.ui",1518550696284
+started,bundle,org.eclipse.mylyn.team.ui,3.4.2.v20100909-0100-e3x,"org.eclipse.mylyn.team.ui",1518550696284
+started,bundle,org.eclipse.search,3.6.0.v20100520-0800,"org.eclipse.search",1518550696284
+started,bundle,org.eclipse.team.core,3.5.100.R36x_v20100825-0800,"org.eclipse.team.core",1518550696284
+started,bundle,org.eclipse.team.cvs.core,3.3.300.I20100526-0800,"org.eclipse.team.cvs.core",1518550696284
+started,bundle,org.eclipse.team.cvs.ui,3.3.301.R36x_v20100825-0800,"org.eclipse.team.cvs.ui",1518550696284
+started,bundle,org.eclipse.team.ui,3.5.101.R36x_v20100825-0800,"org.eclipse.team.ui",1518550696284
+started,bundle,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui",1518550696284
+started,bundle,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console",1518550696284
+started,bundle,org.eclipse.ui.editors,3.6.1.r361_v20100825-0800,"org.eclipse.ui.editors",1518550696284
+started,bundle,org.eclipse.ui.forms,3.5.2.r36_v20100702,"org.eclipse.ui.forms",1518550696284
+started,bundle,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.ide",1518550696284
+started,bundle,org.eclipse.ui.navigator,3.5.0.I20100601-0800,"org.eclipse.ui.navigator",1518550696284
+started,bundle,org.eclipse.ui.navigator.resources,3.4.201.M20100707-0800,"org.eclipse.ui.navigator.resources",1518550696284
+started,bundle,org.eclipse.ui.net,1.2.100.I20100505-1245,"org.eclipse.ui.net",1518550696284
+started,bundle,org.eclipse.ui.views,3.5.0.I20100527-0800,"org.eclipse.ui.views",1518550696284
+started,bundle,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"org.eclipse.ui.workbench",1518550696284
+started,bundle,org.eclipse.ui.workbench.texteditor,3.6.1.r361_v20100714-0800,"org.eclipse.ui.workbench.texteditor",1518550696284
+started,bundle,org.eclipse.update.configurator,3.3.100.v20100512,"org.eclipse.update.configurator",1518550696285
+started,bundle,org.eclipse.update.core,3.2.402.R36x_v20100629,"org.eclipse.update.core",1518550696285
+started,bundle,org.eclipse.update.scheduler,3.2.300.v20100512,"org.eclipse.update.scheduler",1518550696285
+started,bundle,com.altera.sbtgui.integration,12.0.0.178,"com.altera.sbtgui.integration",1518550696286
+started,bundle,com.altera.sbtgui.launch,12.0.0.178,"com.altera.sbtgui.launch",1518550696286
+started,bundle,com.altera.sbtgui.project,12.0.0.178,"com.altera.sbtgui.project",1518550696286
+started,bundle,com.altera.systemconsole,12.0.0.178,"com.altera.systemconsole",1518550696286
+started,bundle,com.altera.systemconsole.designs.plugin,12.0.0.178,"com.altera.systemconsole.designs.plugin",1518550696286
+started,bundle,com.altera.systemconsole.scripting,12.0.0.178,"com.altera.systemconsole.scripting",1518550696286
+started,bundle,com.altera.utilities,12.0.0.178,"com.altera.utilities",1518550696286
+os,sysinfo,,,"linux",1518550696289
+arch,sysinfo,,,"x86",1518550696289
+ws,sysinfo,,,"gtk",1518550696289
+locale,sysinfo,,,"en_US",1518550696289
+processors,sysinfo,,,"4",1518550696289
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1518550696289
+java.runtime.version,sysinfo,,,"1.6.0_23-b05",1518550696289
+java.specification.name,sysinfo,,,"Java Platform API Specification",1518550696289
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1518550696289
+java.specification.version,sysinfo,,,"1.6",1518550696289
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1518550696289
+java.version,sysinfo,,,"1.6.0_23",1518550696289
+java.vm.info,sysinfo,,,"mixed mode",1518550696289
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Server VM",1518550696289
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1518550696289
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1518550696289
+java.vm.specification.version,sysinfo,,,"1.0",1518550696289
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1518550696289
+java.vm.version,sysinfo,,,"19.0-b09",1518550696289
+executed,command,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.project.buildAll",1518550703745
+opened,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1518550704152
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518550704198
+error,log,,,"The URL ""bundleentry://204.fwk27891041/icons/full/dlcl16/synced.gif"" could not be extracted probably due to insufficient permissions or insufficient disk space.",1518550704289
+error,log,,,"The URL ""bundleentry://204.fwk27891041/icons/full/elcl16/synced.gif"" could not be extracted probably due to insufficient permissions or insufficient disk space.",1518550704290
+started,bundle,com.altera.sbtgui.core,12.0.0.178,"com.altera.sbtgui.core",1518550704863
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518550704922
+activated,view,org.eclipse.ui.navigator.resources,3.4.201.M20100707-0800,"org.eclipse.ui.navigator.ProjectExplorer",1518550705424
+started,bundle,org.eclipse.compare,3.5.100.I20100526-0800,"org.eclipse.compare",1518550705792
+started,bundle,org.eclipse.cdt.dsf.gdb.ui,2.1.0.201009141542,"org.eclipse.cdt.dsf.gdb.ui",1518550707867
+started,bundle,org.eclipse.debug.ui,3.6.1.v20100901_r361,"org.eclipse.debug.ui",1518550707899
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518550707934
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518550711932
+started,bundle,org.eclipse.cdt.debug.core,7.0.0.201009141542,"org.eclipse.cdt.debug.core",1518550714171
+started,bundle,org.eclipse.cdt.debug.ui,7.0.0.201009141542,"org.eclipse.cdt.debug.ui",1518550714175
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518550716038
+error,log,,,"The URL ""bundleentry://204.fwk27891041/icons/full/dlcl16/synced.gif"" could not be extracted probably due to insufficient permissions or insufficient disk space.",1518550716091
+error,log,,,"The URL ""bundleentry://204.fwk27891041/icons/full/elcl16/synced.gif"" could not be extracted probably due to insufficient permissions or insufficient disk space.",1518550716092
+executed,command,,,"com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchShortcut.run",1518550717355
+started,bundle,org.eclipse.cdt.launch,6.1.0.201009141542,"org.eclipse.cdt.launch",1518550717361
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518550717366
+started,bundle,org.eclipse.cdt.dsf,2.1.0.201009141542,"org.eclipse.cdt.dsf",1518550717746
+started,bundle,org.eclipse.cdt.dsf.gdb,3.0.0.201009141542,"org.eclipse.cdt.dsf.gdb",1518550717746
+opened,view,com.altera.sbtgui.launch,12.0.0.178,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1518550718509
+started,bundle,org.eclipse.cdt.debug.mi.ui,6.1.0.201009141542,"org.eclipse.cdt.debug.mi.ui",1518550718848
+started,bundle,org.eclipse.cdt.debug.mi.core,7.0.1.201009141542,"org.eclipse.cdt.debug.mi.core",1518550718856
+error,log,,,"Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB 7-2]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8",1518550719861
+activated,view,com.altera.sbtgui.launch,12.0.0.178,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1518550724839
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518550737235
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518550738647
+opened,editor,org.eclipse.cdt.ui,5.2.1.201009141542,"org.eclipse.cdt.ui.editor.CEditor",1518550739937
+activated,editor,org.eclipse.cdt.ui,5.2.1.201009141542,"org.eclipse.cdt.ui.editor.CEditor",1518550740017
+activated,view,org.eclipse.ui.navigator.resources,3.4.201.M20100707-0800,"org.eclipse.ui.navigator.ProjectExplorer",1518550791066
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518550794307
+error,log,,,"The URL ""bundleentry://204.fwk27891041/icons/full/dlcl16/synced.gif"" could not be extracted probably due to insufficient permissions or insufficient disk space.",1518550794369
+error,log,,,"The URL ""bundleentry://204.fwk27891041/icons/full/elcl16/synced.gif"" could not be extracted probably due to insufficient permissions or insufficient disk space.",1518550794371
+executed,command,,,"com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchShortcut.run",1518550794874
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518550794896
+activated,view,com.altera.sbtgui.launch,12.0.0.178,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1518550795479
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1518550796323
+error,log,,,"Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB 7-2]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8",1518550797215
+activated,view,com.altera.sbtgui.launch,12.0.0.178,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1518550801680
+activated,editor,org.eclipse.cdt.ui,5.2.1.201009141542,"org.eclipse.cdt.ui.editor.CEditor",1518550801954
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518550843905
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518550845134
+error,log,,,"The URL ""bundleentry://204.fwk27891041/icons/full/dlcl16/synced.gif"" could not be extracted probably due to insufficient permissions or insufficient disk space.",1518550845152
+error,log,,,"The URL ""bundleentry://204.fwk27891041/icons/full/elcl16/synced.gif"" could not be extracted probably due to insufficient permissions or insufficient disk space.",1518550845153
+activated,view,com.altera.sbtgui.launch,12.0.0.178,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1518550846068
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1518550846892
+error,log,,,"Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB 7-2]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8",1518550847795
+activated,view,com.altera.sbtgui.launch,12.0.0.178,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1518550852315
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518550863126
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518550870302
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518550871412
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518550878691
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518550900546
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518550912393
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518550914271
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518550915533
+activated,editor,org.eclipse.cdt.ui,5.2.1.201009141542,"org.eclipse.cdt.ui.editor.CEditor",1518550918815
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518550928993
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518550930012
+error,log,,,"The URL ""bundleentry://204.fwk27891041/icons/full/dlcl16/synced.gif"" could not be extracted probably due to insufficient permissions or insufficient disk space.",1518550930050
+error,log,,,"The URL ""bundleentry://204.fwk27891041/icons/full/elcl16/synced.gif"" could not be extracted probably due to insufficient permissions or insufficient disk space.",1518550930052
+activated,view,com.altera.sbtgui.launch,12.0.0.178,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1518550931097
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1518550931882
+error,log,,,"Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB 7-2]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8",1518550932768
+activated,view,com.altera.sbtgui.launch,12.0.0.178,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1518550937309
+activated,editor,org.eclipse.cdt.ui,5.2.1.201009141542,"org.eclipse.cdt.ui.editor.CEditor",1518550981462
+activated,editor,org.eclipse.cdt.ui,5.2.1.201009141542,"org.eclipse.cdt.ui.editor.CEditor",1518550991949
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518550995556
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518550996574
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518551002426
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518551051086
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518551068395
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518551069475
+error,log,,,"The URL ""bundleentry://204.fwk27891041/icons/full/dlcl16/synced.gif"" could not be extracted probably due to insufficient permissions or insufficient disk space.",1518551069488
+error,log,,,"The URL ""bundleentry://204.fwk27891041/icons/full/elcl16/synced.gif"" could not be extracted probably due to insufficient permissions or insufficient disk space.",1518551069489
+activated,view,com.altera.sbtgui.launch,12.0.0.178,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1518551070459
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1518551071273
+error,log,,,"Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB 7-2]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8",1518551072192
+activated,view,com.altera.sbtgui.launch,12.0.0.178,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1518551076702
+activated,editor,org.eclipse.cdt.ui,5.2.1.201009141542,"org.eclipse.cdt.ui.editor.CEditor",1518551079040
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518551084748
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518551086760
+error,log,,,"The URL ""bundleentry://204.fwk27891041/icons/full/dlcl16/synced.gif"" could not be extracted probably due to insufficient permissions or insufficient disk space.",1518551086808
+error,log,,,"The URL ""bundleentry://204.fwk27891041/icons/full/elcl16/synced.gif"" could not be extracted probably due to insufficient permissions or insufficient disk space.",1518551086811
+activated,view,com.altera.sbtgui.launch,12.0.0.178,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1518551087785
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1518551088590
+error,log,,,"Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB 7-2]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8",1518551089479
+activated,view,com.altera.sbtgui.launch,12.0.0.178,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1518551093944
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518551143967
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518551144766
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518551152341
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518551351143
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518551352688
+started,bundle,org.eclipse.cdt.mylyn.ui,1.1.3.v20100909-0100-e3x,"org.eclipse.cdt.mylyn.ui",1518551353868
+closed,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1518551353958
+stopped,bundle,org.eclipse.cdt.debug.mi.ui,6.1.0.201009141542,"org.eclipse.cdt.debug.mi.ui",1518551354242
+stopped,bundle,com.altera.debug.cdi.gdb.plugin,12.0.0.178,"com.altera.debug.cdi.gdb.plugin",1518551354242
+stopped,bundle,com.altera.sbtgui.launch,12.0.0.178,"com.altera.sbtgui.launch",1518551355243
+stopped,bundle,org.eclipse.cdt.debug.mi.core,7.0.1.201009141542,"org.eclipse.cdt.debug.mi.core",1518551355244
+stopped,bundle,org.eclipse.cdt.debug.ui.memory.memorybrowser,1.2.0.201009141542,"org.eclipse.cdt.debug.ui.memory.memorybrowser",1518551355244
+stopped,bundle,org.eclipse.cdt.debug.ui.memory.search,1.2.0.201009141542,"org.eclipse.cdt.debug.ui.memory.search",1518551355245
+stopped,bundle,org.eclipse.cdt.dsf.gdb.ui,2.1.0.201009141542,"org.eclipse.cdt.dsf.gdb.ui",1518551355245
+stopped,bundle,org.eclipse.cdt.dsf.ui,2.1.1.201009141542,"org.eclipse.cdt.dsf.ui",1518551355245
+stopped,bundle,org.eclipse.cdt.gdb.ui,7.0.0.201009141542,"org.eclipse.cdt.gdb.ui",1518551355246
+stopped,bundle,org.eclipse.cdt.dsf.gdb,3.0.0.201009141542,"org.eclipse.cdt.dsf.gdb",1518551355246
+stopped,bundle,com.altera.sbtgui.ui,12.0.0.178,"com.altera.sbtgui.ui",1518551355247
+stopped,bundle,com.altera.sbtgui.project,12.0.0.178,"com.altera.sbtgui.project",1518551355247
+stopped,bundle,org.eclipse.cdt.launch,6.1.0.201009141542,"org.eclipse.cdt.launch",1518551355249
+stopped,bundle,org.eclipse.cdt.debug.ui,7.0.0.201009141542,"org.eclipse.cdt.debug.ui",1518551355251
+stopped,bundle,org.eclipse.cdt.debug.ui.memory.traditional,1.2.0.201009141542,"org.eclipse.cdt.debug.ui.memory.traditional",1518551355251
+stopped,bundle,org.eclipse.cdt.dsf,2.1.0.201009141542,"org.eclipse.cdt.dsf",1518551355252
+stopped,bundle,org.eclipse.cdt.debug.core,7.0.0.201009141542,"org.eclipse.cdt.debug.core",1518551355252
+stopped,bundle,org.eclipse.cdt.managedbuilder.ui,7.0.0.201009141542,"org.eclipse.cdt.managedbuilder.ui",1518551355253
+stopped,bundle,org.eclipse.cdt.make.ui,7.0.0.201009141542,"org.eclipse.cdt.make.ui",1518551355253
+stopped,bundle,org.eclipse.cdt.managedbuilder.gnu.ui,7.0.0.201009141542,"org.eclipse.cdt.managedbuilder.gnu.ui",1518551355253
+stopped,bundle,org.eclipse.cdt.managedbuilder.core,7.0.1.201009141542,"org.eclipse.cdt.managedbuilder.core",1518551355259
+stopped,bundle,org.eclipse.cdt.make.core,7.0.0.201009141542,"org.eclipse.cdt.make.core",1518551355259
+stopped,bundle,org.eclipse.cdt.mylyn.ui,1.1.3.v20100909-0100-e3x,"org.eclipse.cdt.mylyn.ui",1518551355262
+stopped,bundle,com.altera.sbtgui.flash.plugin,12.0.0.178,"com.altera.sbtgui.flash.plugin",1518551355262
+stopped,bundle,com.altera.sbtgui.gprof,12.0.0.178,"com.altera.sbtgui.gprof",1518551355263
+stopped,bundle,com.altera.sbtgui.core,12.0.0.178,"com.altera.sbtgui.core",1518551355265
+stopped,bundle,org.eclipse.cdt.ui,5.2.1.201009141542,"org.eclipse.cdt.ui",1518551355268
+stopped,bundle,org.eclipse.cdt.core,5.2.1.201009141542,"org.eclipse.cdt.core",1518551355269
+stopped,bundle,org.eclipse.equinox.p2.ui.sdk,1.0.100.v20100513,"org.eclipse.equinox.p2.ui.sdk",1518551355271
+stopped,bundle,org.eclipse.search,3.6.0.v20100520-0800,"org.eclipse.search",1518551355288
+stopped,bundle,org.eclipse.mylyn.team.ui,3.4.2.v20100909-0100-e3x,"org.eclipse.mylyn.team.ui",1518551355289
+stopped,bundle,org.eclipse.ui.navigator.resources,3.4.201.M20100707-0800,"org.eclipse.ui.navigator.resources",1518551355290
+stopped,bundle,org.eclipse.ltk.ui.refactoring,3.5.0.v20100526-0800,"org.eclipse.ltk.ui.refactoring",1518551355290
+stopped,bundle,org.eclipse.mylyn.bugzilla.ui,3.4.2.v20100909-0100-e3x,"org.eclipse.mylyn.bugzilla.ui",1518551355291
+stopped,bundle,org.eclipse.mylyn.ide.ui,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.ide.ui",1518551355291
+stopped,bundle,org.eclipse.mylyn.resources.ui,3.4.1.v20100909-0100-e3x,"org.eclipse.mylyn.resources.ui",1518551355292
+stopped,bundle,org.eclipse.mylyn.wikitext.tasks.ui,1.3.1.v20100823-0100-e3x,"org.eclipse.mylyn.wikitext.tasks.ui",1518551355292
+stopped,bundle,org.eclipse.mylyn.context.ui,3.4.1.v20100909-0100-e3x,"org.eclipse.mylyn.context.ui",1518551355293
+stopped,bundle,org.eclipse.mylyn.help.ui,3.4.1.v20100823-0100-e3x,"org.eclipse.mylyn.help.ui",1518551355293
+stopped,bundle,org.eclipse.mylyn.tasks.bugs,3.4.1.v20100823-0100-e3x,"org.eclipse.mylyn.tasks.bugs",1518551355294
+stopped,bundle,org.eclipse.mylyn.tasks.ui,3.4.2.v20100902-0100-e3x,"org.eclipse.mylyn.tasks.ui",1518551355294
+stopped,bundle,org.eclipse.team.cvs.ui,3.3.301.R36x_v20100825-0800,"org.eclipse.team.cvs.ui",1518551355295
+stopped,bundle,org.eclipse.team.ui,3.5.101.R36x_v20100825-0800,"org.eclipse.team.ui",1518551355296
+stopped,bundle,org.eclipse.compare,3.5.100.I20100526-0800,"org.eclipse.compare",1518551355296
+stopped,bundle,org.eclipse.cdt.debug.ui.memory.transport,2.1.0.201009141542,"org.eclipse.cdt.debug.ui.memory.transport",1518551355297
+stopped,bundle,org.eclipse.ui.externaltools,3.2.0.v20100427,"org.eclipse.ui.externaltools",1518551355297
+stopped,bundle,org.eclipse.debug.ui,3.6.1.v20100901_r361,"org.eclipse.debug.ui",1518551355308
+stopped,bundle,org.eclipse.mylyn.wikitext.ui,1.3.0.v20100608-0100-e3x,"org.eclipse.mylyn.wikitext.ui",1518551355309
+stopped,bundle,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console",1518551355311
+stopped,bundle,org.eclipse.mylyn.commons.ui,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.commons.ui",1518551355311
+activated,perspective,com.altera.sbtgui.ui,,"com.altera.sbtgui.ui.cPerspective",1518551371689
+started,bundle,org.eclipse.osgi,3.6.1.R36x_v20100806,"org.eclipse.osgi",1518551371692
+started,bundle,org.eclipse.equinox.simpleconfigurator,1.0.200.v20100503,"org.eclipse.equinox.simpleconfigurator",1518551371693
+started,bundle,com.ibm.icu,4.2.1.v20100412,"com.ibm.icu",1518551371695
+started,bundle,org.eclipse.cdt.core,5.2.1.201009141542,"org.eclipse.cdt.core",1518551371695
+started,bundle,org.eclipse.cdt.make.core,7.0.0.201009141542,"org.eclipse.cdt.make.core",1518551371695
+started,bundle,org.eclipse.cdt.make.ui,7.0.0.201009141542,"org.eclipse.cdt.make.ui",1518551371695
+started,bundle,org.eclipse.cdt.managedbuilder.core,7.0.1.201009141542,"org.eclipse.cdt.managedbuilder.core",1518551371695
+started,bundle,org.eclipse.cdt.ui,5.2.1.201009141542,"org.eclipse.cdt.ui",1518551371695
+started,bundle,org.eclipse.compare.core,3.5.100.I20100526-0800,"org.eclipse.compare.core",1518551371696
+started,bundle,org.eclipse.core.contenttype,3.4.100.v20100505-1235,"org.eclipse.core.contenttype",1518551371696
+started,bundle,org.eclipse.core.databinding.observable,1.3.0.I20100601-0800,"org.eclipse.core.databinding.observable",1518551371698
+started,bundle,org.eclipse.core.expressions,3.4.200.v20100505,"org.eclipse.core.expressions",1518551371698
+started,bundle,org.eclipse.core.filebuffers,3.5.100.v20100520-0800,"org.eclipse.core.filebuffers",1518551371699
+started,bundle,org.eclipse.core.filesystem,1.3.1.R36x_v20100727-0745,"org.eclipse.core.filesystem",1518551371699
+started,bundle,org.eclipse.core.jobs,3.5.1.R36x_v20100824,"org.eclipse.core.jobs",1518551371700
+started,bundle,org.eclipse.core.net,1.2.100.I20100511-0800,"org.eclipse.core.net",1518551371700
+started,bundle,org.eclipse.core.resources,3.6.0.R36x_v20100825-0600,"org.eclipse.core.resources",1518551371700
+started,bundle,org.eclipse.core.runtime,3.6.0.v20100505,"org.eclipse.core.runtime",1518551371700
+started,bundle,org.eclipse.core.runtime.compatibility,3.2.100.v20100505,"org.eclipse.core.runtime.compatibility",1518551371702
+started,bundle,org.eclipse.core.runtime.compatibility.auth,3.2.200.v20100517,"org.eclipse.core.runtime.compatibility.auth",1518551371704
+started,bundle,org.eclipse.core.variables,3.2.400.v20100505,"org.eclipse.core.variables",1518551371704
+started,bundle,org.eclipse.debug.core,3.6.0.v20100519,"org.eclipse.debug.core",1518551371704
+started,bundle,org.eclipse.epp.usagedata.gathering,1.3.0.R201005261100,"org.eclipse.epp.usagedata.gathering",1518551371704
+started,bundle,org.eclipse.epp.usagedata.recording,1.3.0.R201005261100,"org.eclipse.epp.usagedata.recording",1518551371704
+started,bundle,org.eclipse.equinox.app,1.3.1.R36x_v20100803,"org.eclipse.equinox.app",1518551371704
+started,bundle,org.eclipse.equinox.common,3.6.0.v20100503,"org.eclipse.equinox.common",1518551371705
+started,bundle,org.eclipse.equinox.ds,1.2.1.R36x_v20100803,"org.eclipse.equinox.ds",1518551371707
+started,bundle,org.eclipse.equinox.event,1.2.0.v20100503,"org.eclipse.equinox.event",1518551371708
+started,bundle,org.eclipse.equinox.p2.core,2.0.2.R36x_v20100804,"org.eclipse.equinox.p2.core",1518551371714
+started,bundle,org.eclipse.equinox.p2.directorywatcher,1.0.202.R36x_v20100727,"org.eclipse.equinox.p2.directorywatcher",1518551371715
+started,bundle,org.eclipse.equinox.p2.engine,2.0.0.v20100606,"org.eclipse.equinox.p2.engine",1518551371715
+started,bundle,org.eclipse.equinox.p2.metadata,2.0.0.v20100601,"org.eclipse.equinox.p2.metadata",1518551371717
+started,bundle,org.eclipse.equinox.p2.metadata.repository,1.1.0.v20100513,"org.eclipse.equinox.p2.metadata.repository",1518551371717
+started,bundle,org.eclipse.equinox.p2.operations,2.0.0.v20100510,"org.eclipse.equinox.p2.operations",1518551371719
+started,bundle,org.eclipse.equinox.p2.reconciler.dropins,1.1.0.v20100525,"org.eclipse.equinox.p2.reconciler.dropins",1518551371719
+started,bundle,org.eclipse.equinox.p2.repository,2.0.1.R36x_v20100823,"org.eclipse.equinox.p2.repository",1518551371723
+started,bundle,org.eclipse.equinox.p2.ui.sdk.scheduler,1.0.0.v20100507-1815,"org.eclipse.equinox.p2.ui.sdk.scheduler",1518551371723
+started,bundle,org.eclipse.equinox.p2.updatechecker,1.1.101.R36x_v20100823,"org.eclipse.equinox.p2.updatechecker",1518551371724
+started,bundle,org.eclipse.equinox.preferences,3.3.0.v20100503,"org.eclipse.equinox.preferences",1518551371725
+started,bundle,org.eclipse.equinox.registry,3.5.0.v20100503,"org.eclipse.equinox.registry",1518551371725
+started,bundle,org.eclipse.equinox.security,1.0.200.v20100503,"org.eclipse.equinox.security",1518551371725
+started,bundle,org.eclipse.equinox.util,1.0.200.v20100503,"org.eclipse.equinox.util",1518551371726
+started,bundle,org.eclipse.help,3.5.0.v20100524,"org.eclipse.help",1518551371726
+started,bundle,org.eclipse.jface,3.6.1.M20100825-0800,"org.eclipse.jface",1518551371753
+started,bundle,org.eclipse.jsch.core,1.1.200.I20100505-1245,"org.eclipse.jsch.core",1518551371753
+started,bundle,org.eclipse.ltk.core.refactoring,3.5.100.v20100526-0800,"org.eclipse.ltk.core.refactoring",1518551371753
+started,bundle,org.eclipse.ltk.ui.refactoring,3.5.0.v20100526-0800,"org.eclipse.ltk.ui.refactoring",1518551371753
+started,bundle,org.eclipse.mylyn.bugzilla.core,3.4.2.v20100902-0100-e3x,"org.eclipse.mylyn.bugzilla.core",1518551371753
+started,bundle,org.eclipse.mylyn.bugzilla.ui,3.4.2.v20100909-0100-e3x,"org.eclipse.mylyn.bugzilla.ui",1518551371754

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable filter="Default">
+  <columns>
+   <connections preferredWidth="127" />
+   <irq preferredWidth="34" />
+  </columns>
+ </systemtable>
+ <clocktable>
+  <columns>
+   <clockname preferredWidth="354" />
+   <clocksource preferredWidth="353" />
+   <frequency preferredWidth="334" />
+  </columns>
+ </clocktable>
+ <library expandedCategories="Project,Library,Project/coe4ds4_components" />
+ <window width="1357" height="930" x="0" y="25" />
+</preferences>

@@ -1,0 +1,5 @@
+
+**** Clean-only build of configuration Nios II for project experiment2 ****
+
+make clean 
+[experiment2 clean complete]

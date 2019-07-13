@@ -1,0 +1,411 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2012 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 32-bit
+# Version 12.0 Build 263 08/02/2012 Service Pack 2 SJ Full Version
+# Date created = 17:02:55  November 14, 2012
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		experiment3_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name DEVICE EP2C35F672C6
+set_global_assignment -name TOP_LEVEL_ENTITY experiment3
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "12.0 SP2"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "17:02:55  NOVEMBER 14, 2012"
+set_global_assignment -name LAST_QUARTUS_VERSION "12.0 SP2"
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VERILOG_INPUT_VERSION SYSTEMVERILOG_2005
+set_global_assignment -name VERILOG_SHOW_LMF_MAPPING_MESSAGES OFF
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+
+set_location_assignment PIN_N25 -to switch_i_external_connection_export[0]
+set_location_assignment PIN_N26 -to switch_i_external_connection_export[1]
+set_location_assignment PIN_P25 -to switch_i_external_connection_export[2]
+set_location_assignment PIN_AE14 -to switch_i_external_connection_export[3]
+set_location_assignment PIN_AF14 -to switch_i_external_connection_export[4]
+set_location_assignment PIN_AD13 -to switch_i_external_connection_export[5]
+set_location_assignment PIN_AC13 -to switch_i_external_connection_export[6]
+set_location_assignment PIN_C13 -to switch_i_external_connection_export[7]
+set_location_assignment PIN_B13 -to switch_i_external_connection_export[8]
+set_location_assignment PIN_A13 -to switch_i_external_connection_export[9]
+set_location_assignment PIN_N1 -to switch_i_external_connection_export[10]
+set_location_assignment PIN_P1 -to switch_i_external_connection_export[11]
+set_location_assignment PIN_P2 -to switch_i_external_connection_export[12]
+set_location_assignment PIN_T7 -to switch_i_external_connection_export[13]
+set_location_assignment PIN_U3 -to switch_i_external_connection_export[14]
+set_location_assignment PIN_U4 -to switch_i_external_connection_export[15]
+set_location_assignment PIN_V1 -to switch_i_external_connection_export[16]
+set_location_assignment PIN_AE22 -to led_green_o_external_connection_export[0]
+set_location_assignment PIN_AF22 -to led_green_o_external_connection_export[1]
+set_location_assignment PIN_W19 -to led_green_o_external_connection_export[2]
+set_location_assignment PIN_V18 -to led_green_o_external_connection_export[3]
+set_location_assignment PIN_U18 -to led_green_o_external_connection_export[4]
+set_location_assignment PIN_U17 -to led_green_o_external_connection_export[5]
+set_location_assignment PIN_AA20 -to led_green_o_external_connection_export[6]
+set_location_assignment PIN_Y18 -to led_green_o_external_connection_export[7]
+set_location_assignment PIN_Y12 -to led_green_o_external_connection_export[8]
+set_location_assignment PIN_AE23 -to led_red_o_external_connection_export[0]
+set_location_assignment PIN_AF23 -to led_red_o_external_connection_export[1]
+set_location_assignment PIN_AB21 -to led_red_o_external_connection_export[2]
+set_location_assignment PIN_AC22 -to led_red_o_external_connection_export[3]
+set_location_assignment PIN_AD22 -to led_red_o_external_connection_export[4]
+set_location_assignment PIN_AD23 -to led_red_o_external_connection_export[5]
+set_location_assignment PIN_AD21 -to led_red_o_external_connection_export[6]
+set_location_assignment PIN_AC21 -to led_red_o_external_connection_export[7]
+set_location_assignment PIN_AA14 -to led_red_o_external_connection_export[8]
+set_location_assignment PIN_Y13 -to led_red_o_external_connection_export[9]
+set_location_assignment PIN_AA13 -to led_red_o_external_connection_export[10]
+set_location_assignment PIN_AC14 -to led_red_o_external_connection_export[11]
+set_location_assignment PIN_AD15 -to led_red_o_external_connection_export[12]
+set_location_assignment PIN_AE15 -to led_red_o_external_connection_export[13]
+set_location_assignment PIN_AF13 -to led_red_o_external_connection_export[14]
+set_location_assignment PIN_AE13 -to led_red_o_external_connection_export[15]
+set_location_assignment PIN_AE12 -to led_red_o_external_connection_export[16]
+set_location_assignment PIN_AD12 -to led_red_o_external_connection_export[17]
+set_location_assignment PIN_G26 -to push_button_i_external_connection_export[0]
+set_location_assignment PIN_N23 -to push_button_i_external_connection_export[1]
+set_location_assignment PIN_P23 -to push_button_i_external_connection_export[2]
+set_location_assignment PIN_W26 -to push_button_i_external_connection_export[3]
+set_location_assignment PIN_N2 -to clock_50_i_clk_in_clk
+set_location_assignment PIN_V2 -to clock_50_i_clk_in_reset_reset_n
+
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to led_red_o_external_connection_export[0]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to led_red_o_external_connection_export[1]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to led_red_o_external_connection_export[2]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to led_red_o_external_connection_export[3]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to led_red_o_external_connection_export[4]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to led_red_o_external_connection_export[5]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to led_red_o_external_connection_export[6]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to led_red_o_external_connection_export[7]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to led_red_o_external_connection_export[8]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to led_red_o_external_connection_export[9]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to led_red_o_external_connection_export[10]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to led_red_o_external_connection_export[11]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to led_red_o_external_connection_export[12]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to led_red_o_external_connection_export[13]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to led_red_o_external_connection_export[14]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to led_red_o_external_connection_export[15]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to led_red_o_external_connection_export[16]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to led_red_o_external_connection_export[17]
+
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to led_green_o_external_connection_export[0]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to led_green_o_external_connection_export[1]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to led_green_o_external_connection_export[2]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to led_green_o_external_connection_export[3]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to led_green_o_external_connection_export[4]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to led_green_o_external_connection_export[5]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to led_green_o_external_connection_export[6]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to led_green_o_external_connection_export[7]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to led_green_o_external_connection_export[8]
+
+set_location_assignment PIN_AD8 -to sram_0_external_interface_DQ[0]
+set_location_assignment PIN_AE6 -to sram_0_external_interface_DQ[1]
+set_location_assignment PIN_AF6 -to sram_0_external_interface_DQ[2]
+set_location_assignment PIN_AA9 -to sram_0_external_interface_DQ[3]
+set_location_assignment PIN_AA10 -to sram_0_external_interface_DQ[4]
+set_location_assignment PIN_AB10 -to sram_0_external_interface_DQ[5]
+set_location_assignment PIN_AA11 -to sram_0_external_interface_DQ[6]
+set_location_assignment PIN_Y11 -to sram_0_external_interface_DQ[7]
+set_location_assignment PIN_AE7 -to sram_0_external_interface_DQ[8]
+set_location_assignment PIN_AF7 -to sram_0_external_interface_DQ[9]
+set_location_assignment PIN_AE8 -to sram_0_external_interface_DQ[10]
+set_location_assignment PIN_AF8 -to sram_0_external_interface_DQ[11]
+set_location_assignment PIN_W11 -to sram_0_external_interface_DQ[12]
+set_location_assignment PIN_W12 -to sram_0_external_interface_DQ[13]
+set_location_assignment PIN_AC9 -to sram_0_external_interface_DQ[14]
+set_location_assignment PIN_AC10 -to sram_0_external_interface_DQ[15]
+set_location_assignment PIN_AE9 -to sram_0_external_interface_LB_N
+set_location_assignment PIN_AD10 -to sram_0_external_interface_OE_N
+set_location_assignment PIN_AF9 -to sram_0_external_interface_UB_N
+set_location_assignment PIN_AE10 -to sram_0_external_interface_WE_N
+set_location_assignment PIN_AC11 -to sram_0_external_interface_CE_N
+set_location_assignment PIN_AE4 -to sram_0_external_interface_ADDR[0]
+set_location_assignment PIN_AF4 -to sram_0_external_interface_ADDR[1]
+set_location_assignment PIN_AC5 -to sram_0_external_interface_ADDR[2]
+set_location_assignment PIN_AC6 -to sram_0_external_interface_ADDR[3]
+set_location_assignment PIN_AD4 -to sram_0_external_interface_ADDR[4]
+set_location_assignment PIN_AD5 -to sram_0_external_interface_ADDR[5]
+set_location_assignment PIN_AE5 -to sram_0_external_interface_ADDR[6]
+set_location_assignment PIN_AF5 -to sram_0_external_interface_ADDR[7]
+set_location_assignment PIN_AD6 -to sram_0_external_interface_ADDR[8]
+set_location_assignment PIN_AD7 -to sram_0_external_interface_ADDR[9]
+set_location_assignment PIN_V10 -to sram_0_external_interface_ADDR[10]
+set_location_assignment PIN_V9 -to sram_0_external_interface_ADDR[11]
+set_location_assignment PIN_AC7 -to sram_0_external_interface_ADDR[12]
+set_location_assignment PIN_W8 -to sram_0_external_interface_ADDR[13]
+set_location_assignment PIN_W10 -to sram_0_external_interface_ADDR[14]
+set_location_assignment PIN_Y10 -to sram_0_external_interface_ADDR[15]
+set_location_assignment PIN_AB8 -to sram_0_external_interface_ADDR[16]
+set_location_assignment PIN_AC8 -to sram_0_external_interface_ADDR[17]
+
+set_location_assignment PIN_T6 -to nios_lcd_camera_component_0_global_signals_export_DRAM_ADDR[0]
+set_location_assignment PIN_V4 -to nios_lcd_camera_component_0_global_signals_export_DRAM_ADDR[1]
+set_location_assignment PIN_V3 -to nios_lcd_camera_component_0_global_signals_export_DRAM_ADDR[2]
+set_location_assignment PIN_W2 -to nios_lcd_camera_component_0_global_signals_export_DRAM_ADDR[3]
+set_location_assignment PIN_W1 -to nios_lcd_camera_component_0_global_signals_export_DRAM_ADDR[4]
+set_location_assignment PIN_U6 -to nios_lcd_camera_component_0_global_signals_export_DRAM_ADDR[5]
+set_location_assignment PIN_U7 -to nios_lcd_camera_component_0_global_signals_export_DRAM_ADDR[6]
+set_location_assignment PIN_U5 -to nios_lcd_camera_component_0_global_signals_export_DRAM_ADDR[7]
+set_location_assignment PIN_W4 -to nios_lcd_camera_component_0_global_signals_export_DRAM_ADDR[8]
+set_location_assignment PIN_W3 -to nios_lcd_camera_component_0_global_signals_export_DRAM_ADDR[9]
+set_location_assignment PIN_Y1 -to nios_lcd_camera_component_0_global_signals_export_DRAM_ADDR[10]
+set_location_assignment PIN_V5 -to nios_lcd_camera_component_0_global_signals_export_DRAM_ADDR[11]
+set_location_assignment PIN_AE2 -to nios_lcd_camera_component_0_global_signals_export_DRAM_BA_0
+set_location_assignment PIN_AE3 -to nios_lcd_camera_component_0_global_signals_export_DRAM_BA_1
+set_location_assignment PIN_AB3 -to nios_lcd_camera_component_0_global_signals_export_DRAM_CAS_N
+set_location_assignment PIN_AA6 -to nios_lcd_camera_component_0_global_signals_export_DRAM_CKE
+set_location_assignment PIN_AA7 -to nios_lcd_camera_component_0_global_signals_export_DRAM_CLK
+set_location_assignment PIN_AC3 -to nios_lcd_camera_component_0_global_signals_export_DRAM_CS_N
+set_location_assignment PIN_V6 -to nios_lcd_camera_component_0_global_signals_export_DRAM_DQ[0]
+set_location_assignment PIN_AA2 -to nios_lcd_camera_component_0_global_signals_export_DRAM_DQ[1]
+set_location_assignment PIN_AA1 -to nios_lcd_camera_component_0_global_signals_export_DRAM_DQ[2]
+set_location_assignment PIN_Y3 -to nios_lcd_camera_component_0_global_signals_export_DRAM_DQ[3]
+set_location_assignment PIN_Y4 -to nios_lcd_camera_component_0_global_signals_export_DRAM_DQ[4]
+set_location_assignment PIN_R8 -to nios_lcd_camera_component_0_global_signals_export_DRAM_DQ[5]
+set_location_assignment PIN_T8 -to nios_lcd_camera_component_0_global_signals_export_DRAM_DQ[6]
+set_location_assignment PIN_V7 -to nios_lcd_camera_component_0_global_signals_export_DRAM_DQ[7]
+set_location_assignment PIN_W6 -to nios_lcd_camera_component_0_global_signals_export_DRAM_DQ[8]
+set_location_assignment PIN_AB2 -to nios_lcd_camera_component_0_global_signals_export_DRAM_DQ[9]
+set_location_assignment PIN_AB1 -to nios_lcd_camera_component_0_global_signals_export_DRAM_DQ[10]
+set_location_assignment PIN_AA4 -to nios_lcd_camera_component_0_global_signals_export_DRAM_DQ[11]
+set_location_assignment PIN_AA3 -to nios_lcd_camera_component_0_global_signals_export_DRAM_DQ[12]
+set_location_assignment PIN_AC2 -to nios_lcd_camera_component_0_global_signals_export_DRAM_DQ[13]
+set_location_assignment PIN_AC1 -to nios_lcd_camera_component_0_global_signals_export_DRAM_DQ[14]
+set_location_assignment PIN_AA5 -to nios_lcd_camera_component_0_global_signals_export_DRAM_DQ[15]
+set_location_assignment PIN_AD2 -to nios_lcd_camera_component_0_global_signals_export_DRAM_LDQM
+set_location_assignment PIN_Y5 -to nios_lcd_camera_component_0_global_signals_export_DRAM_UDQM
+set_location_assignment PIN_AB4 -to nios_lcd_camera_component_0_global_signals_export_DRAM_RAS_N
+set_location_assignment PIN_AD3 -to nios_lcd_camera_component_0_global_signals_export_DRAM_WE_N
+
+set_location_assignment PIN_D25 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[0]
+set_location_assignment PIN_J22 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[1]
+set_location_assignment PIN_E26 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[2]
+set_location_assignment PIN_E25 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[3]
+set_location_assignment PIN_F24 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[4]
+set_location_assignment PIN_F23 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[5]
+set_location_assignment PIN_J21 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[6]
+set_location_assignment PIN_J20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[7]
+set_location_assignment PIN_F25 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[8]
+set_location_assignment PIN_F26 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[9]
+set_location_assignment PIN_N18 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[10]
+set_location_assignment PIN_P18 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[11]
+set_location_assignment PIN_G23 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[12]
+set_location_assignment PIN_G24 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[13]
+set_location_assignment PIN_K22 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[14]
+set_location_assignment PIN_G25 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[15]
+set_location_assignment PIN_H23 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[16]
+set_location_assignment PIN_H24 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[17]
+set_location_assignment PIN_J23 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[18]
+set_location_assignment PIN_J24 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[19]
+set_location_assignment PIN_H25 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[20]
+set_location_assignment PIN_H26 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[21]
+set_location_assignment PIN_H19 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[22]
+set_location_assignment PIN_K18 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[23]
+set_location_assignment PIN_K19 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[24]
+set_location_assignment PIN_K21 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[25]
+set_location_assignment PIN_K23 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[26]
+set_location_assignment PIN_K24 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[27]
+set_location_assignment PIN_L21 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[28]
+set_location_assignment PIN_L20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[29]
+set_location_assignment PIN_J25 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[30]
+set_location_assignment PIN_J26 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[31]
+set_location_assignment PIN_L23 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[32]
+set_location_assignment PIN_L24 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[33]
+set_location_assignment PIN_L25 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[34]
+set_location_assignment PIN_L19 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[35]
+
+set_location_assignment PIN_K25 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[0]
+set_location_assignment PIN_K26 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[1]
+set_location_assignment PIN_M22 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[2]
+set_location_assignment PIN_M23 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[3]
+set_location_assignment PIN_M19 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[4]
+set_location_assignment PIN_M20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[5]
+set_location_assignment PIN_N20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[6]
+set_location_assignment PIN_M21 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[7]
+set_location_assignment PIN_M24 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[8]
+set_location_assignment PIN_M25 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[9]
+set_location_assignment PIN_N24 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[10]
+set_location_assignment PIN_P24 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[11]
+set_location_assignment PIN_R25 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[12]
+set_location_assignment PIN_R24 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[13]
+set_location_assignment PIN_R20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[14]
+set_location_assignment PIN_T22 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[15]
+set_location_assignment PIN_T23 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[16]
+set_location_assignment PIN_T24 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[17]
+set_location_assignment PIN_T25 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[18]
+set_location_assignment PIN_T18 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[19]
+set_location_assignment PIN_T21 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[20]
+set_location_assignment PIN_T20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[21]
+set_location_assignment PIN_U26 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[22]
+set_location_assignment PIN_U25 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[23]
+set_location_assignment PIN_U23 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[24]
+set_location_assignment PIN_U24 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[25]
+set_location_assignment PIN_R19 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[26]
+set_location_assignment PIN_T19 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[27]
+set_location_assignment PIN_U20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[28]
+set_location_assignment PIN_U21 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[29]
+set_location_assignment PIN_V26 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[30]
+set_location_assignment PIN_V25 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[31]
+set_location_assignment PIN_V24 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[32]
+set_location_assignment PIN_V23 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[33]
+set_location_assignment PIN_W25 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[34]
+set_location_assignment PIN_W23 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[35]
+
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[0]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[1]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[2]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[3]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[4]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[5]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[6]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[7]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[8]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[9]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[10]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[11]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[12]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[13]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[14]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[15]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[16]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[17]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[18]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[19]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[20]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[21]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[22]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[23]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[24]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[25]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[26]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[27]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[28]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[29]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[30]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[31]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[32]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[33]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[34]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_0[35]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[0]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[1]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[2]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[3]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[4]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[5]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[6]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[7]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[8]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[9]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[10]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[11]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[12]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[13]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[14]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[15]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[16]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[17]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[18]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[19]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[20]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[21]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[22]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[23]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[24]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[25]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[26]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[27]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[28]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[29]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[30]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[31]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[32]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[33]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[34]
+set_instance_assignment -name OUTPUT_PIN_LOAD 20 -to nios_lcd_camera_component_0_global_signals_export_GPIO_1[35]
+
+set_location_assignment PIN_AD25 -to sd_card_0_conduit_end_o_SD_clock
+set_location_assignment PIN_Y21 -to sd_card_0_conduit_end_b_SD_cmd
+set_location_assignment PIN_AC23 -to sd_card_0_conduit_end_b_SD_dat3
+set_location_assignment PIN_AD24 -to sd_card_0_conduit_end_b_SD_dat
+
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+
+set_global_assignment -name VHDL_FILE /tools/altera/12.0/ip/University_Program/Memory/altera_up_sd_card_avalon_interface/hdl/Altera_UP_SD_Signal_Trigger.vhd
+set_global_assignment -name VHDL_FILE /tools/altera/12.0/ip/University_Program/Memory/altera_up_sd_card_avalon_interface/hdl/Altera_UP_SD_CRC16_Generator.vhd
+set_global_assignment -name VHDL_FILE /tools/altera/12.0/ip/University_Program/Memory/altera_up_sd_card_avalon_interface/hdl/Altera_UP_SD_CRC7_Generator.vhd
+set_global_assignment -name VHDL_FILE /tools/altera/12.0/ip/University_Program/Memory/altera_up_sd_card_avalon_interface/hdl/Altera_UP_SD_Card_Response_Receiver.vhd
+set_global_assignment -name VHDL_FILE /tools/altera/12.0/ip/University_Program/Memory/altera_up_sd_card_avalon_interface/hdl/Altera_UP_SD_Card_Memory_Block.vhd
+set_global_assignment -name SOURCE_FILE /tools/altera/12.0/ip/University_Program/Memory/altera_up_sd_card_avalon_interface/hdl/Altera_UP_SD_Card_Memory_Block.cmp
+set_global_assignment -name VHDL_FILE /tools/altera/12.0/ip/University_Program/Memory/altera_up_sd_card_avalon_interface/hdl/Altera_UP_SD_Card_Interface.vhd
+set_global_assignment -name VHDL_FILE /tools/altera/12.0/ip/University_Program/Memory/altera_up_sd_card_avalon_interface/hdl/Altera_UP_SD_Card_Control_FSM.vhd
+set_global_assignment -name VHDL_FILE /tools/altera/12.0/ip/University_Program/Memory/altera_up_sd_card_avalon_interface/hdl/Altera_UP_SD_Card_Clock.vhd
+set_global_assignment -name VHDL_FILE /tools/altera/12.0/ip/University_Program/Memory/altera_up_sd_card_avalon_interface/hdl/Altera_UP_SD_Card_Buffer.vhd
+set_global_assignment -name VHDL_FILE /tools/altera/12.0/ip/University_Program/Memory/altera_up_sd_card_avalon_interface/hdl/Altera_UP_SD_Card_Avalon_Interface.vhd
+set_global_assignment -name VHDL_FILE /tools/altera/12.0/ip/University_Program/Memory/altera_up_sd_card_avalon_interface/hdl/Altera_UP_SD_Card_48_bit_Command_Generator.vhd
+set_global_assignment -name VERILOG_FILE Nios_LCD_Camera_Component/Sdram_Control_4Port/Sdram_WR_FIFO.v
+set_global_assignment -name VERILOG_FILE Nios_LCD_Camera_Component/Sdram_Control_4Port/Sdram_RD_FIFO.v
+set_global_assignment -name VERILOG_FILE Nios_LCD_Camera_Component/Sdram_Control_4Port/Sdram_PLL.v
+set_global_assignment -name SOURCE_FILE Nios_LCD_Camera_Component/Sdram_Control_4Port/Sdram_Params.h
+set_global_assignment -name VERILOG_FILE Nios_LCD_Camera_Component/Sdram_Control_4Port/Sdram_Control_4Port.v
+set_global_assignment -name VERILOG_FILE Nios_LCD_Camera_Component/Sdram_Control_4Port/sdr_data_path.v
+set_global_assignment -name VERILOG_FILE Nios_LCD_Camera_Component/Sdram_Control_4Port/control_interface.v
+set_global_assignment -name VERILOG_FILE Nios_LCD_Camera_Component/Sdram_Control_4Port/command.v
+set_global_assignment -name VERILOG_FILE Nios_LCD_Camera_Component/Touch_Panel_Controller.v
+set_global_assignment -name VERILOG_FILE Nios_LCD_Camera_Component/Nios_Touch_Panel_Interface.v
+set_global_assignment -name SYSTEMVERILOG_FILE Nios_LCD_Camera_Component/Nios_LCD_Camera_Component.sv
+set_global_assignment -name VERILOG_FILE Nios_LCD_Camera_Component/Nios_Imageline_Interface.v
+set_global_assignment -name VERILOG_FILE Nios_LCD_Camera_Component/Nios_Console_Interface.v
+set_global_assignment -name VERILOG_FILE Nios_LCD_Camera_Component/Nios_Camera_Interface.v
+set_global_assignment -name VERILOG_FILE Nios_LCD_Camera_Component/Line_Buffer.v
+set_global_assignment -name VERILOG_FILE Nios_LCD_Camera_Component/LCD_Data_Contoller.v
+set_global_assignment -name VERILOG_FILE Nios_LCD_Camera_Component/LCD_Console_Generation.v
+set_global_assignment -name VERILOG_FILE Nios_LCD_Camera_Component/LCD_Config_Controller.v
+set_global_assignment -name VERILOG_FILE Nios_LCD_Camera_Component/I2C_M24_Controller.v
+set_global_assignment -name VERILOG_FILE Nios_LCD_Camera_Component/I2C_M16_Controller.v
+set_global_assignment -name VERILOG_FILE Nios_LCD_Camera_Component/Filter_RAM.v
+set_global_assignment -name VERILOG_FILE Nios_LCD_Camera_Component/Filter_Pipe.v
+set_global_assignment -name VERILOG_FILE Nios_LCD_Camera_Component/Camera_Data_Controller.v
+set_global_assignment -name VERILOG_FILE Nios_LCD_Camera_Component/Camera_Config_Controller.v
+set_global_assignment -name VERILOG_FILE Nios_LCD_Camera_Component/Button_Label_RAM.v
+set_global_assignment -name VERILOG_FILE Nios_LCD_Camera_Component/Button_Character_Map.v
+set_global_assignment -name QIP_FILE experiment3/synthesis/experiment3.qip
+set_global_assignment -name SOURCE_FILE experiment3.qsf
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

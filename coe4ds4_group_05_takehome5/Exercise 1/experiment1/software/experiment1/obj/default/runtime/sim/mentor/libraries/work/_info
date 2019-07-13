@@ -1,0 +1,44 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/ECE/arfeenh/Desktop/coe4ds4_lab5_2018/experiment1/software/experiment1/obj/default/runtime/sim/mentor
+vexperiment1
+Z1 !s100 5Vb33do=[^baG:9RdgHA83
+Z2 IZ9d;K6i?T4LT_oW_:0UXJ3
+Z3 VJgAAV0dhk@;W?U7XA[l8Z0
+Z4 d/home/ECE/arfeenh/Desktop/coe4ds4_lab5_2018/experiment1/software/experiment1/obj/default/runtime/sim/mentor
+Z5 w1518302068
+Z6 8/home/ECE/arfeenh/Desktop/coe4ds4_lab5_2018/experiment1/experiment1/simulation/experiment1.v
+Z7 F/home/ECE/arfeenh/Desktop/coe4ds4_lab5_2018/experiment1/experiment1/simulation/experiment1.v
+L0 6
+Z8 OV;L;10.0d;49
+r1
+!s85 0
+31
+!s108 1518308309.976690
+!s107 /home/ECE/arfeenh/Desktop/coe4ds4_lab5_2018/experiment1/experiment1/simulation/experiment1.v|
+Z9 !s90 -reportprogress|300|/home/ECE/arfeenh/Desktop/coe4ds4_lab5_2018/experiment1/experiment1/simulation/experiment1.v|
+!s101 -O0
+o-O0
+vtest_bench
+Z10 DXx6 sv_std 3 std 0 22 :CP]PHbGOHGT_H:3KF`8L2
+Z11 Ik<zlj<4oL6hIZKBzE=WiK2
+Z12 VEJNK5ZO7TWUP1egUA9^TR1
+Z13 !s105 test_bench_v_unit
+S1
+R4
+Z14 w1518308267
+Z15 8../../../../../../../test_bench.v
+Z16 F../../../../../../../test_bench.v
+L0 3
+R8
+r1
+31
+Z17 !s90 -reportprogress|300|-sv|../../../../../../../test_bench.v|
+Z18 o-sv -O0
+Z19 !s100 o>m<ohQ=QLE5RKmc10c4J2
+!s85 0
+Z20 !s108 1518308290.420155
+Z21 !s107 ../../../../../../../test_bench.v|
+!s101 -O0

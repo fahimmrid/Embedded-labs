@@ -1,0 +1,8 @@
+
+**** Build of configuration Nios II for project experiment1 ****
+
+make all 
+Info: Building ../experiment1_bsp/
+make --no-print-directory -C ../experiment1_bsp/
+[BSP build complete]
+[RUN_ON_HDL_SIMULATOR_ONLY_experiment1 build complete]
